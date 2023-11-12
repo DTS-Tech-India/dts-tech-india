@@ -395,7 +395,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 </li>
                 <li>
                   Our focus is on delivering measurable results. We pride
-                  ourselves on achieving outcomes that matter, whether it's
+                  ourselves on achieving outcomes that matter, whether it&apos;s
                   increased website traffic, a stronger brand identity, or
                   higher customer engagement.
                 </li>

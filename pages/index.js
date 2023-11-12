@@ -260,7 +260,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 <SwiperSlide key={"feature-" + index}>
                   <div className="feature-card m-4 rounded-md border border-transparent px-7 py-16 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
                     <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
-                      <FeatherIcon icon={item.icon} />
+                      <FeatherIcon icon={item.icon} color={item.color} />
                     </div>
                     <h3 className="h4 mb-5 mt-6">{item.title}</h3>
                     <p>{item.content}</p>
@@ -366,7 +366,50 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 "h2",
                 "mt-4 section-title bar-left"
               )}
-              {markdownify(speciality.primary.description, "p", "mt-10")}
+              {markdownify(
+                speciality.primary.description,
+                "p",
+                "mt-8 mb-4 bar-left"
+              )}
+
+              <ul className="list-disc">
+                <li>
+                  Expertise: Our team of professionals brings years of industry
+                  experience and a deep understanding of the latest technology
+                  trends to every project.
+                </li>
+                <li>
+                  Innovation: We thrive on creativity and forward-thinking,
+                  ensuring that our solutions are at the cutting edge of
+                  technology.
+                </li>
+                <li>
+                  Every project is tailored to meet your unique needs, ensuring
+                  that the solutions we provide are a perfect fit for your
+                  goals.
+                </li>
+                <li>
+                  Your success is our top priority. We work closely with you,
+                  listening to your needs and offering solutions that exceed
+                  your expectations.
+                </li>
+                <li>
+                  Our focus is on delivering measurable results. We pride
+                  ourselves on achieving outcomes that matter, whether it's
+                  increased website traffic, a stronger brand identity, or
+                  higher customer engagement.
+                </li>
+                <li>
+                  We maintain rigorous quality standards at every step of our
+                  work to ensure the final product is nothing short of
+                  excellence.
+                </li>
+                <li>
+                  Global Reach: We have a worldwide presence, serving clients
+                  not only locally but also across international borders,
+                  providing you with a global perspective.
+                </li>
+              </ul>
             </div>
           </div>
           <div className="row items-center">

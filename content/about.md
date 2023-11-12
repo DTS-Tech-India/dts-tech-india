@@ -6,8 +6,11 @@ draft: false
 ## about us
 about_us:
   subtitle: WHO WE ARE
-  title: Hello, We’re Andromeda Here For Your Help
-  content: Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit
+  title: Hello, We’re DTS Tech India Here For Your Help
+  content: >
+    DTS Tech India, a technology solutions leader, embodies innovation, creativity, and seamless integration. Our dynamic history underscores adaptability and growth.
+    Innovation is at our core, driving inventive solutions, while our imaginative approach turns creative ideas into reality. We specialize in seamless integration, ensuring our solutions harmoniously fit into technological ecosystems.
+    Our philosophy centers on excellence and a client-first approach, globally extending our reach to ensure your success. We're your trusted partner for innovative, integrated tech solutions.
   image: /images/about/01.jpg
 
 ## our works
@@ -26,9 +29,11 @@ works:
 
 ## our mission
 mission:
-  subtitle: OUR MISSION
-  title: Main Vision And Mission Of Our Company
-  content: We were freelance designers and developers, constantly finding ourselve deep vague feedback. leaving a notes from the sticky note piece .
+  subtitle: Mission and Vision
+  title: Main Mission and Vision Of Our Company
+  content: >
+    At DTS Tech India, our mission is clear - we lead in innovation, imagination, and integration. Our commitment is to empower with cutting-edge solutions, bridging ideas to reality, and driving positive change through technology.<br />
+    Our vision is a future where technology enriches every facet of life and business. We pioneer solutions that transcend boundaries, fuel progress through innovation, and make technology accessible and intuitive.
   image: /images/about/02.jpg
 
 ## short video
@@ -53,7 +58,6 @@ clients:
     - /images/brands/04-colored.png
     - /images/brands/05-colored.png
     - /images/brands/06-colored.png
-
 
 ## members
 our_member:
@@ -83,12 +87,10 @@ our_office:
     - flag: /images/about/flags/au.png
       name: Australia, Perth
       location: Flat 23 80 Anthony Circlet Port Guiseppe, TAS 2691
-    - flag:  /images/about/flags/germany.png
+    - flag: /images/about/flags/germany.png
       name: Berlin, Germany
       location: Jl Raya Dewi Sartika Ged Harapan Masa, Br Germeny
-    - flag:  /images/about/flags/china.png
+    - flag: /images/about/flags/china.png
       name: China, Wohan
       location: 1hao Wen Ti Huo Dong Zhong Xin 1ceng Jian Xing
-
 ---
-

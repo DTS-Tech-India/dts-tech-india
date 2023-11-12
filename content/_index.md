@@ -1,9 +1,10 @@
 ---
 banner:
-  title: "Andromeda is the most intuitive </br> way to prototype Designs"
+  title: "DTS Tech India"
+  subtitle: Innovation, Imagination, Integration
   image: /images/banner-app.png
   link:
-    label: Get Premium Version
+    label: Get Started
     href: "#"
 
 ##brands
@@ -54,8 +55,8 @@ intro:
 #speciality
 speciality:
   primary:
-    title: You Will Not Miss Your All Misunderstandings
-    subtitle: PRIMARY SPECIALITY
+    title: Why Choose Us
+    subtitle: 
     description: Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the.
     image: /images/features-01.png
   secondary:

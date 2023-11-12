@@ -55,7 +55,7 @@ const Header = () => {
 
           <ul
             id="nav-menu"
-            className={`navbar-nav order-2 w-full justify-center md:w-auto md:space-x-2 lg:order-1 lg:flex ${
+            className={`navbar-nav order-2 w-full justify-end lg:order-1 md:w-auto md:space-x-2 lg:flex ${
               !showMenu && "hidden"
             }`}
           >
@@ -98,27 +98,8 @@ const Header = () => {
                 )}
               </React.Fragment>
             ))}
-            {config.nav_button.enable && (
-              <li className="nav-item lg:hidden">
-                <Link
-                  className="btn btn-primary hidden lg:flex"
-                  href={config.nav_button.link}
-                >
-                  {config.nav_button.label}
-                </Link>
-              </li>
-            )}
           </ul>
           <div className="order-1 ml-auto flex items-center md:ml-0">
-            {config.nav_button.enable && (
-              <Link
-                className="btn btn-primary hidden lg:flex"
-                href={config.nav_button.link}
-              >
-                {config.nav_button.label}
-              </Link>
-            )}
-
             {/* navbar toggler */}
             {showMenu ? (
               <button

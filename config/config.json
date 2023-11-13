@@ -2,7 +2,7 @@
   "site": {
     "title": "DTS Tech India",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
+    "favicon": "/images/favicon.iso",
     "logo": "/images/logo.png",
     "logo_width": "50",
     "logo_height": "50",
@@ -23,9 +23,9 @@
   },
 
   "contact_info": {
-    "phone": "+887887998",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624"
+    "phone": "+91 - 8851657328",
+    "email": "info@dtstechindia.com",
+    "location": "42, Ground Floor, Block SD, Pitampura, New Delhi - 110034"
   },
 
   "metadata": {
@@ -36,11 +36,11 @@
 
   "call_to_action": {
     "enable": true,
-    "title": "Get Andromeda Now",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
+    "title": "Connect with DTS Tech India",
+    "content": "Ready to elevate your digital presence? Let's start the conversation. Whether you have a specific project in mind, need a quote, or just want to explore how we can help your business thrive in the digital landscape — reach out to us today. Click below to get started:",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/products/andromeda-light-nextjs"
+      "label": "Contact",
+      "link": "/contact"
     }
   },
 

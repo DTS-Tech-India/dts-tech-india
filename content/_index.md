@@ -32,7 +32,7 @@ features:
       color: "#E36644"
     - icon: "wind"
       title: Logo Design
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      content: At DTS Tech India, we specialize in crafting impactful logos that go beyond aesthetics. Our designs uniquely capture your brand essence, ensuring a lasting and memorable connection with your audience. Trust us to elevate your brand identity with creativity and precision.
       color: "#E36644"
     - icon: "film"
       title: Video Production
@@ -55,7 +55,7 @@ features:
       title: Pay-per-click advertising
       content: We create and manage online advertising campaigns that drive traffic, increase conversions, and deliver a substantial return on investment. Our services cover pay-per-click advertising, display ads, and ad campaign management.
       color: "#7400A3"
-    - icon: "wind"
+    - icon: "edit-2"
       title: Blog Post creation
       content: Our experienced writers deliver high-quality, SEO-optimized content that attracts and retains your audience's interest. We specialize in blog posts, articles, and website content to help your message resonate effectively.
       color:
@@ -72,20 +72,20 @@ intro:
 speciality:
   primary:
     title: Why Choose Us
-    subtitle:
+    subtitle: Our Differentiators
     description: At DTS Tech India, we stand out for several compelling reasons -
-    image: /images/features-01.png
+    image: /images/why-choose-us.svg
   secondary:
-    title: Say Hello To No-Code The Advance Creation
-    subtitle: SECONDARY SPECIALITY
-    description: From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code.
-    image: /images/features-02.png
+    title: Our Process
+    subtitle: Crafting Success
+    description: At DTS Tech India, we start with a detailed discovery, crafting a tailored strategy for your project's success. Moving into design and development, we prioritize quality and open communication. Post-completion, our commitment extends with ongoing support, ensuring your vision becomes a seamless reality.
+    image: /images/our-process.svg
 
 #Testimonial
 testimonial:
   title: OUR TESTIMONIALS
   subtitle: Don’t Take Our Word For It
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  description: Explore firsthand experiences with DTS Tech India. Our clients share success stories, highlighting our commitment to excellence, innovation, and satisfaction. Discover why businesses choose us as their trusted digital partner.
   list:
     - author: David Cameron
       avatar: /images/user-img/01.jpg

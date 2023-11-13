@@ -393,22 +393,6 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                   listening to your needs and offering solutions that exceed
                   your expectations.
                 </li>
-                <li>
-                  Our focus is on delivering measurable results. We pride
-                  ourselves on achieving outcomes that matter, whether it&apos;s
-                  increased website traffic, a stronger brand identity, or
-                  higher customer engagement.
-                </li>
-                <li>
-                  We maintain rigorous quality standards at every step of our
-                  work to ensure the final product is nothing short of
-                  excellence.
-                </li>
-                <li>
-                  Global Reach: We have a worldwide presence, serving clients
-                  not only locally but also across international borders,
-                  providing you with a global perspective.
-                </li>
               </ul>
             </div>
           </div>
@@ -441,7 +425,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
           <div className="animate text-center">
             <p>{testimonial.subtitle}</p>
             {markdownify(testimonial.title, "h2", "mt-4 section-title")}
-            {markdownify(testimonial.description, "p", "mt-10")}
+            {markdownify(testimonial.description, "p", "mt-10 w-1/2 mx-auto")}
           </div>
           <div className="animate row mt-10 items-center justify-center">
             <div className="xl:col-11">

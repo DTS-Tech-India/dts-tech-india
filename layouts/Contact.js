@@ -19,6 +19,40 @@ const Contact = ({ data }) => {
               height={397}
               alt=""
             />
+            <p className="my-8">
+              Your journey with DTS Tech India begins here. We're here to
+              listen, collaborate, and make your digital aspirations a reality.
+              Whether you have questions, need a quote, or want to discuss a
+              project, we're just a message away. Reach out to us through any of
+              the following means:
+            </p>
+            <ul className="list-disc">
+              <li className="mb-4">
+                <strong>Phone:</strong> Connect with our experts directly by
+                calling [Phone Number].
+              </li>
+              <li className="mb-4">
+                <strong>Email:</strong> Drop us an email at [Email Address], and
+                our team will respond promptly.
+              </li>
+              <li className="mb-4">
+                <strong>Visit Us:</strong> If you prefer face-to-face meetings,
+                we welcome you to our office at [Office Address]. Our doors are
+                open for discussions, consultations, and to better understand
+                your needs.
+              </li>
+              <li className="mb-4">
+                <strong>Social Media:</strong> Stay updated and engaged with us
+                on our social media platforms. Follow us on [Social Media Links]
+                for the latest news, insights, and updates.
+              </li>
+            </ul>
+            <p className="my-8">
+              Your success is our priority, and we are committed to providing
+              exceptional service and support at every step. We look forward to
+              connecting with you and embarking on a journey of innovation,
+              imagination, and integration together.
+            </p>
           </div>
           <div className="animate lg:col-5">
             <form

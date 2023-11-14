@@ -187,7 +187,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 </div>
               </div>
             </div>
-            <div className="row border-y border-border py-5">
+            {/* <div className="row border-y border-border py-5">
               <div className="animate from-right col-12">
                 <Swiper
                   loop={true}
@@ -220,13 +220,13 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                   ))}
                 </Swiper>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
-      {/* Features */}
-      <section className="section">
+      {/* services we offer */}
+      <section className="py-8" id="services">
         <div className="container text-center">
           <div className="animate">
             <p className="uppercase">{features.sub_title}</p>

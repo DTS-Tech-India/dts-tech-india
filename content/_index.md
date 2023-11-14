@@ -1,11 +1,11 @@
 ---
 banner:
   title: "DTS Tech India"
-  subtitle: Innovation, Imagination, Integration
+  subtitle: Innovation. Imagination. Integration
   image: /images/banner-app.png
   link:
     label: Get Started
-    href: "#"
+    href: "#services"
 
 ##brands
 brands:
@@ -87,36 +87,24 @@ testimonial:
   subtitle: Don’t Take Our Word For It
   description: Explore firsthand experiences with DTS Tech India. Our clients share success stories, highlighting our commitment to excellence, innovation, and satisfaction. Discover why businesses choose us as their trusted digital partner.
   list:
-    - author: David Cameron
+    - author: John D.
       avatar: /images/user-img/01.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
+      profession: CEO of InnovateTech
+      content: "DTS Tech India delivered beyond our expectations! Their innovative approach to web development transformed our online presence. Professional, efficient, and a pleasure to work with."
+    - author: Emily S.
       avatar: /images/user-img/02.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
+      profession: Marketing Manager at Quantum Innovations
+      content: "Choosing DTS for our digital marketing needs was a game-changer. Their strategies significantly increased our online reach, and the results were outstanding. Highly recommend their expertise!"
+    - author: David M.
       avatar: /images/user-img/03.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
+      profession: Founder of Stellar Designs
+      content: "The graphic design services from DTS Tech India exceeded all our hopes. They brought our vision to life with creative flair and attention to detail. Exceptional work!"
+    - author: Sophie L.
       avatar: /images/user-img/04.png
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
+      profession: E-commerce Entrepreneur
+      content: "DTS Tech India made our e-commerce journey seamless. Their development services resulted in a user-friendly site, and their ongoing support ensures it stays top-notch. Extremely satisfied!"
+    - author: David CameronAlexandra K.
       avatar: /images/user-img/05.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/06.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/07.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/08.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
+      profession: Content Strategist at TechTrends
+      content: "Working with DTS on content creation was fantastic. Their writers are not only skilled but also understand the nuances of our industry. Engaging, informative, and consistently high-quality content."
 ---

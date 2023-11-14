@@ -11,13 +11,14 @@ const Services = ({ features }) => {
           <div className="animate">
             <h1>Service we Offer</h1>
             <p className="my-8">
-              At DTS Tech India, we're your trusted partner in the digital
+              At DTS Tech India, we&apos;re your trusted partner in the digital
               world, offering a range of services to enhance your online
-              presence and boost your brand's appeal. Our expert team combines
-              creativity and technology to deliver innovative solutions tailored
-              to your unique needs. We empower your brand with the tools and
-              strategies required for success in the digital age. Explore our
-              services to achieve your digital objectives and excel online.
+              presence and boost your brand&apos;s appeal. Our expert team
+              combines creativity and technology to deliver innovative solutions
+              tailored to your unique needs. We empower your brand with the
+              tools and strategies required for success in the digital age.
+              Explore our services to achieve your digital objectives and excel
+              online.
             </p>
           </div>
           <div className="grid grid-cols-3 gap-8">
@@ -48,10 +49,10 @@ const Services = ({ features }) => {
             </p>
             <p className="my-8">
               Following Discovery, we enter the Strategic Planning phase. Here,
-              our team formulates a detailed plan encompassing the project's
-              scope, timelines, and resource requirements. This strategic
-              blueprint serves as our roadmap, ensuring that every subsequent
-              step is aligned with your vision and expectations.
+              our team formulates a detailed plan encompassing the
+              project&apos;s scope, timelines, and resource requirements. This
+              strategic blueprint serves as our roadmap, ensuring that every
+              subsequent step is aligned with your vision and expectations.
             </p>
           </div>
         </div>

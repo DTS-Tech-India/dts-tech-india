@@ -225,68 +225,54 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
         </div>
       </section>
 
-      {/* services we offer */}
-      <section className="py-8" id="services">
-        <div className="container text-center">
-          <div className="animate">
-            <p className="uppercase">{features.sub_title}</p>
-            {markdownify(features.title, "h2", "mt-4 section-title")}
-            {markdownify(features.description, "p", "mt-10")}
-          </div>
-          <div className="animate from-right relative mt-10">
-            <Swiper
-              slidesPerView={1}
-              pagination={{
-                type: "bullets",
-                el: paginationRef.current,
-                clickable: true,
-                dynamicBullets: true,
-              }}
-              // autoplay={{ delay: 3000 }}
-              onBeforeInit={(swiper) => {
-                swiper.params.pagination.el = paginationRef.current;
-              }}
-              modules={[Pagination]}
-              breakpoints={{
-                768: {
-                  slidesPerView: 2,
-                },
-                1200: {
-                  slidesPerView: 3,
-                },
-              }}
-            >
-              {features.list.map((item, index) => (
-                <SwiperSlide key={"feature-" + index}>
-                  <div className="feature-card m-4 rounded-md border border-transparent px-7 py-16 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
-                    <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
-                      <FeatherIcon icon={item.icon} color={item.color} />
-                    </div>
-                    <h3 className="h4 mb-5 mt-6">{item.title}</h3>
-                    <p>{item.content}</p>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-            <div className="relative mt-9 flex justify-center">
-              <div className="pagination " ref={paginationRef}></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Short Into */}
-      <section className="section pt-0">
+      <section className="section pt-0" id="services">
         <div className="container-xl">
           <div className="relative px-4 py-[70px]">
             <div className="text-center">
               <div className="animate">
-                <p>{intro.subtitle}</p>
-                {markdownify(intro.title, "h2", "mt-4 section-title")}
-                {markdownify(intro.description, "p", "mt-10")}
+                <p className="uppercase">{features.sub_title}</p>
+                {markdownify(features.title, "h2", "mt-4 section-title")}
+                {markdownify(features.description, "p", "mt-10")}
               </div>
-              <div className="mx-auto mt-10 h-full max-h-[394px] w-full max-w-[716px]">
-                <VideoPopup id={intro.video_id} thumbnail={intro.thumbnail} />
+              <div className="animate from-right relative mt-10">
+                <Swiper
+                  slidesPerView={1}
+                  pagination={{
+                    type: "bullets",
+                    el: paginationRef.current,
+                    clickable: true,
+                    dynamicBullets: true,
+                  }}
+                  // autoplay={{ delay: 3000 }}
+                  onBeforeInit={(swiper) => {
+                    swiper.params.pagination.el = paginationRef.current;
+                  }}
+                  modules={[Pagination]}
+                  breakpoints={{
+                    768: {
+                      slidesPerView: 2,
+                    },
+                    1200: {
+                      slidesPerView: 3,
+                    },
+                  }}
+                >
+                  {features.list.map((item, index) => (
+                    <SwiperSlide key={"feature-" + index}>
+                      <div className="feature-card z-[100] m-4 rounded-md border border-transparent bg-white px-7 py-16 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
+                        <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
+                          <FeatherIcon icon={item.icon} color={item.color} />
+                        </div>
+                        <h3 className="h4 mb-5 mt-6">{item.title}</h3>
+                        <p>{item.content}</p>
+                      </div>
+                    </SwiperSlide>
+                  ))}
+                </Swiper>
+                <div className="relative mt-9 flex justify-center">
+                  <div className="pagination " ref={paginationRef}></div>
+                </div>
               </div>
             </div>
             <div className="bg-theme absolute left-0 top-0 w-full">

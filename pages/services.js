@@ -22,8 +22,11 @@ const Services = ({ features }) => {
             </p>
           </div>
           <div className="grid grid-cols-3 gap-8">
-            {features.list.map((item) => (
-              <div className="feature-card m-4 rounded-md border border-transparent px-7 py-16 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
+            {features.list.map((item, i) => (
+              <div
+                key={i}
+                className="feature-card m-4 rounded-md border border-transparent px-7 py-16 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none"
+              >
                 <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
                   <FeatherIcon icon={item.icon} color={item.color} />
                 </div>

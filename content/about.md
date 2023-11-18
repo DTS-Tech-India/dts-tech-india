@@ -8,9 +8,7 @@ about_us:
   subtitle: WHO WE ARE
   title: Hello, We’re DTS Tech India Here For Your Help
   content: >
-    DTS Tech India, a technology solutions leader, embodies innovation, creativity, and seamless integration. Our dynamic history underscores adaptability and growth.
-    Innovation is at our core, driving inventive solutions, while our imaginative approach turns creative ideas into reality. We specialize in seamless integration, ensuring our solutions harmoniously fit into technological ecosystems.
-    Our philosophy centers on excellence and a client-first approach, globally extending our reach to ensure your success. We're your trusted partner for innovative, integrated tech solutions.
+    At DTS Tech India, we aren't just a digital marketing agency; we're a technology solutions leader, embodying innovation, creativity, and seamless integration. Our dynamic history is a testament to adaptability and growth, positioning us as pioneers in the ever-evolving digital landscape.
   image: /images/about/01.jpg
 
 ## our works
@@ -18,14 +16,20 @@ works:
   subtitle: OUR WORKS
   title: What We Do
   list:
-    - title: Building A New Class
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Design For Anyone
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Creative Flair Design
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Building Products
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
+    - title: Graphic Design and Logo Design - The Art of    Brand Expression
+      content: In a world dominated by visuals, we go beyond aesthetics. Our graphic design and logo creation services are a testament to the art of brand expression. We breathe life into your ideas, ensuring that every design element tells a story and leaves a memorable imprint.
+    - title: Video Production - Lights, Camera, Impact!
+      content: Step into the world of storytelling with our video production services. From corporate narratives to engaging social media content, we transform concepts into visual stories that not only capture attention but also resonate with your audience on a profound level.
+    - title: Web Development - Crafting Digital Masterpieces
+      content: Your online presence is your digital storefront. Our web development team doesn't just code; they craft digital masterpieces. We ensure that your website is not only visually stunning but also seamlessly functional, providing a memorable and user-friendly experience for your visitors.
+    - title: Keyword Optimization - Elevate Your Digital Presence
+      content: In the vast landscape of the internet, being found matters. Our strategic keyword optimization services elevate your digital presence, ensuring that your business is not just visible but stands out where it matters most—search engine results.
+    - title: Social Media Marketing - Beyond Likes and Shares
+      content: Social media is more than just a platform; it's a community. Our social media marketing campaigns go beyond likes and shares. We create meaningful connections, build brand loyalty, and elevate your presence on platforms where conversations matter.
+    - title: Blog Post Creation - Weaving Digital Narratives
+      content: Content is the heartbeat of your digital presence. Our expert storytellers weave digital narratives that educate, entertain, and engage. Whether it's informative blog posts or thought-provoking articles, we create content that positions your brand as an industry thought leader.
+    - title: Pay-Per-Click (PPC) - Precision in Digital Advertising
+      content: Content is the heartbeat of your digital presence. Our expert storytellers weave digital narratives that educate, entertain, and engage. Whether it's informative blog posts or thought-provoking articles, we create content that positions your brand as an industry thought leader.
 
 ## our mission
 mission:
@@ -40,7 +44,7 @@ mission:
 video:
   subtitle: A SHORT VIDEO
   title: You Take Care Of The Payments, We Take Care Of The Rest.
-  description: Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistcy throughout the.
+  description: Unburden your worries and focus on what matters most—your business. With us, it's simple - You take care of the payments, and we take care of the rest. From seamless digital solutions to innovative strategies, let us handle the complexities while you navigate the path to success worry-free. Your growth is our priority, and we've got everything else covered.
   video_id: dyZcRRWiuuw
   thumbnail: /images/about/video-popup-2.jpg
 

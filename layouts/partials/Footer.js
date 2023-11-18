@@ -14,18 +14,34 @@ const Footer = () => {
       <div className="container">
         <div className="row border-y border-border py-12">
           <div className="animate md:col-6 lg:col-3">
-            <Logo />
+            <img src="./images/logo.png" alt="" className="w-1/2" />
             {markdownify(footer_content, "p", "mt-3")}
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
-            <h3 className="h5">Quick Links</h3>
+            <h3 className="h5">Explore</h3>
             {/* footer menu */}
             <ul className="mt-5 leading-10">
               {menu.footer.map((menu) => (
                 <li key={menu.name}>
                   <Link
                     href={menu.url}
-                    className=" hover:text-primary hover:underline"
+                    className="hover:text-primary hover:underline"
+                  >
+                    {menu.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
+            <h3 className="h5">Services</h3>
+            {/* footer menu */}
+            <ul className="mt-5 leading-10">
+              {menu.footer_services.map((menu) => (
+                <li key={menu.name}>
+                  <Link
+                    href={menu.url}
+                    className="hover:text-primary hover:underline"
                   >
                     {menu.name}
                   </Link>

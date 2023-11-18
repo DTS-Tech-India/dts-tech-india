@@ -20,16 +20,58 @@
   ],
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Home",
+      "url": "/home"
     },
     {
       "name": "Blog",
       "url": "/blog"
     },
     {
-      "name": "Terms & Conditions",
-      "url": "/terms-policy"
+      "name": "Portfolio",
+      "url": "/portfolio"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "About Us",
+      "url": "/Contact Us"
+    }
+  ],
+  "footer_services": [
+    {
+      "name": "Graphic Design",
+      "url": "/graphic-design"
+    },
+    {
+      "name": "Logo Design",
+      "url": "/logo-design"
+    },
+    {
+      "name": "Video Production",
+      "url": "/video-production"
+    },
+    {
+      "name": "Web Design",
+      "url": "/web-design"
+    },
+    {
+      "name": "Keyword Optimization",
+      "url": "/keyword-optimization"
+    },
+    {
+      "name": "Social Media Marketing",
+      "url": "/social-media-marketing"
+    },
+    {
+      "name": "Pay-per-click advertising",
+      "url": "/ppc"
+    },
+    {
+      "name": "Blog Post Creation",
+      "url": "/blog-post-creation"
     }
   ]
 }

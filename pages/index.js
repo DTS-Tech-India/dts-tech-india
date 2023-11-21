@@ -232,8 +232,8 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             <p>{testimonial.subtitle}</p>
             <h2 className="section-title mt-4">Why Choose Us</h2>
           </div>
-          <div className="grid grid-cols-2 gap-8 p-12 text-center">
-            <div className="animate choose-us-card rounded-md bg-[#f1f1f1aa] p-4">
+          <div className="flex flex-wrap justify-center gap-8 p-12 text-center">
+            <div className="animate choose-us-card rounded-md bg-[#f1f1f1aa] p-4 w-[500px]">
               <h1 className="mb-2 text-2xl">Expertise</h1>
               <p className="mx-auto w-3/4 leading-7">
                 Our team of professionals brings years of industry experience
@@ -241,21 +241,21 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 every project.
               </p>
             </div>
-            <div className="animate choose-us-card rounded-md bg-[#f1f1f1aa] p-4">
+            <div className="animate choose-us-card rounded-md bg-[#f1f1f1aa] p-4 w-[500px]">
               <h1 className="mb-2 text-2xl">Innovation</h1>
               <p className="mx-auto w-3/4 leading-7">
                 We thrive on creativity and forward-thinking, ensuring that our
                 solutions are at the cutting edge of technology.
               </p>
             </div>
-            <div className="animate choose-us-card rounded-md bg-[#f1f1f1aa] p-4">
+            <div className="animate choose-us-card rounded-md bg-[#f1f1f1aa] p-4 w-[500px]">
               <h1 className="mb-2 text-2xl">Customization</h1>
               <p className="mx-auto w-3/4 leading-7">
                 Every project is tailored to meet your unique needs, ensuring
                 that the solutions we provide are a perfect fit for your goals.
               </p>
             </div>
-            <div className="animate choose-us-card rounded-md bg-[#f1f1f1aa] p-4">
+            <div className="animate choose-us-card rounded-md bg-[#f1f1f1aa] p-4 w-[500px]">
               <h1 className="mb-2 text-2xl">Client-Centric Focus</h1>
               <p className="mx-auto w-3/4 leading-7">
                 Your success is our top priority. We work closely with you,
@@ -275,7 +275,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               <p>Crafting Success</p>
               <h2 className="section-title mt-4">Our Process</h2>
             </div>
-            <div className="mt-10 flex gap-6">
+            <div className="mt-10 flex flex-wrap justify-center gap-6 xl:flex-nowrap">
               <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
                 <h4 className="text-base font-light text-primary">#1</h4>
                 <h1 className="mb-4 text-xl">Discovery</h1>
@@ -440,8 +440,8 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               the digital age.
             </p>
           </div>
-          <div className="mt-10 grid grid-cols-3 gap-6">
-            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+          <div className="mt-10 flex flex-wrap justify-center gap-6">
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff] w-[400px]">
               <img
                 src="./images/icons/graphic-design.png"
                 alt=""
@@ -455,7 +455,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 digital landscape
               </p>
             </div>
-            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff] w-[400px]">
               <img
                 src="./images/icons/audio-visual.png"
                 alt=""
@@ -470,7 +470,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 with technology.
               </p>
             </div>
-            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff] w-[400px]">
               <img
                 src="./images/icons/development.png"
                 alt=""
@@ -484,7 +484,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 design, web application development, and e-commerce solutions.
               </p>
             </div>
-            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff] w-[400px]">
               <img src="./images/icons/seo.png" alt="" className="h-10 w-10" />
               <h1 className="mb-4 text-2xl">Search Engine Optimization</h1>
               <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#EAA92B] underline"></span>
@@ -494,7 +494,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 increased organic traffic and search prominence.
               </p>
             </div>
-            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff] w-[400px]">
               <img
                 src="./images/icons/digital-marketing.png"
                 alt=""
@@ -508,7 +508,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 and online advertising.
               </p>
             </div>
-            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff] w-[400px]">
               <img src="./images/icons/ppc.png" alt="" className="h-10 w-10" />
               <h1 className="mb-4 text-2xl">Pay-per-click advertising</h1>
               <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#7400A3] underline"></span>

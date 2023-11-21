@@ -14,7 +14,7 @@ function Cta() {
         className="absolute hidden xl:block right-[20%] top-10 shadow-xl"
       />
       <div className="container">
-        <h1 className="text-white">DTS Tech India</h1>
+        <h1 className="text-white">Let&apos;s connet together</h1>
         <p className="my-2 w-full md:w-1/2 text-gray-200">
           Ready to enhance your online presence? Whether it's a specific
           project, a quote, or exploring how we can boost your digital success,

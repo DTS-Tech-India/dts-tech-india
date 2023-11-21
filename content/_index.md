@@ -83,7 +83,7 @@ speciality:
 
 #Testimonial
 testimonial:
-  title: OUR TESTIMONIALS
+  title: Our testimonials
   subtitle: Don’t Take Our Word For It
   description: Explore firsthand experiences with DTS Tech India. Our clients share success stories, highlighting our commitment to excellence, innovation, and satisfaction. Discover why businesses choose us as their trusted digital partner.
   list:

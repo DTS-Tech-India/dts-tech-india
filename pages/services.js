@@ -41,8 +41,8 @@ const Services = ({ features }) => {
             <div className="animate w-3/4">
               <h1>Graphic Design</h1>
               <h6 className="mt-4 border-b-[2px] border-b-[#E36644] pb-4 font-light text-gray-500">
-                Transform Your Brand Aesthetics with DTS Tech India&apos;s Graphic
-                Design Services.
+                Transform Your Brand Aesthetics with DTS Tech India&apos;s
+                Graphic Design Services.
               </h6>
               <p className="mt-6 w-3/4 leading-7">
                 Our expert designers infuse creativity into every project,
@@ -54,12 +54,12 @@ const Services = ({ features }) => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <img src="./images/services/graphic-design.jpg" alt="" />
+            <img src="./images/services/graphic-design.webp" alt="" />
           </div>
         </div>
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2">
-            <img src="./images/services/video-editing.jpg" alt="" />
+            <img src="./images/services/video-editing.webp" alt="" />
           </div>
           <div className="flex flex-col items-center justify-center py-12 lg:w-1/2">
             <div className="animate w-3/4">
@@ -82,8 +82,8 @@ const Services = ({ features }) => {
             <div className="animate w-3/4">
               <h1>Development Services</h1>
               <h6 className="mt-4 border-b-[2px] border-b-[#003366] pb-4 font-light text-gray-500">
-                Empower Your Digital Presence with DTS Tech India&apos;s Development
-                Services.
+                Empower Your Digital Presence with DTS Tech India&apos;s
+                Development Services.
               </h6>
               <p className="mt-6 w-3/4 leading-7">
                 Our expert team seamlessly merges creativity and technical
@@ -96,18 +96,19 @@ const Services = ({ features }) => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <img src="./images/services/development.jpg" alt="" />
+            <img src="./images/services/development.webp" alt="" />
           </div>
         </div>
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2">
-            <img src="./images/services/seo.jpg" alt="" />
+            <img src="./images/services/seo.webp" alt="" />
           </div>
           <div className="flex flex-col items-center justify-center py-12 lg:w-1/2">
             <div className="animate w-3/4">
               <h1>Search Engine Optimization</h1>
               <h6 className="mt-4 border-b-[2px] border-b-[#EAA92B] pb-4 font-light text-gray-500">
-                Boost Your Online Visibility with DTS Tech India&apos;s SEO Services.
+                Boost Your Online Visibility with DTS Tech India&apos;s SEO
+                Services.
               </h6>
               <p className="mt-6 w-3/4 leading-7">
                 Our strategic SEO techniques optimize your digital content,
@@ -123,8 +124,8 @@ const Services = ({ features }) => {
             <div className="animate w-3/4">
               <h1>Digital Marketing</h1>
               <h6 className="mt-4 border-b-[2px] border-b-[#059B2F] pb-4 font-light text-gray-500">
-                Amplify Your Brand Reach with DTS Tech India&apops;s Digital Marketing
-                Services.
+                Amplify Your Brand Reach with DTS Tech India&apos;s Digital
+                Marketing Services.
               </h6>
               <p className="mt-6 w-3/4 leading-7">
                 From strategic social media campaigns to targeted online
@@ -137,25 +138,26 @@ const Services = ({ features }) => {
             </div>
           </div>
           <div className="lg:w-1/2">
-            <img src="./images/services/digital-marketing.jpg" alt="" />
+            <img src="./images/services/digital-marketing.webp" alt="" />
           </div>
         </div>
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2">
-            <img src="./images/services/ppc.jpg" alt="" />
+            <img src="./images/services/ppc.webp" alt="" />
           </div>
           <div className="flex flex-col items-center justify-center py-12 lg:w-1/2">
             <div className="animate w-3/4">
               <h1>Pay-per-click advertising</h1>
               <h6 className="mt-4 border-b-[2px] border-b-[#7400A3] pb-4 font-light text-gray-500">
-                Maximize Your Online Impact with DTS Tech India&apos;s PPC Services.
+                Maximize Your Online Impact with DTS Tech India&apos;s PPC
+                Services.
               </h6>
               <p className="mt-6 w-3/4 leading-7">
                 Our Pay-Per-Click expertise ensures strategic ad placements,
                 driving targeted traffic and optimizing your digital marketing
-                budget effectively. Trust us to elevate your brand&apos;s visibility
-                with results-oriented PPC campaigns tailored to your business
-                goals.
+                budget effectively. Trust us to elevate your brand&apos;s
+                visibility with results-oriented PPC campaigns tailored to your
+                business goals.
               </p>
             </div>
           </div>

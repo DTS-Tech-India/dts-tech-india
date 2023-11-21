@@ -1,60 +1,28 @@
-import config from "@config/config.json";
-import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
-import Circle from "./Circle";
-import ImageFallback from "./ImageFallback";
 
 function Cta() {
-  const { title, content, button, enable } = config.call_to_action;
-  if (!enable) return;
-
   return (
-    <section className="cta section pt-0">
-      <div className="container-xl">
-        <div className="section relative px-4 text-center">
-          <div className="animate">
-            {markdownify(title, "h2", "section-title")}
-            {markdownify(content, "p", "mt-10")}
-            <Link href={button.link} className="btn btn-primary mt-10">
-              {button.label}
-            </Link>
-          </div>
-          <div className="bg-theme animated-bg absolute top-0 left-0 w-full after:hidden">
-            <ImageFallback
-              src="/images/wave.svg"
-              fill={true}
-              sizes="100vw"
-              alt="bg wave"
-            />
-            <Circle
-              className="left-[10%] top-12"
-              width={32}
-              height={32}
-              fill={false}
-            />
-            <Circle className="left-[3%] bottom-[13%]" width={85} height={85} />
-            <Circle
-              className="left-[15%] bottom-[35%]"
-              width={47}
-              height={47}
-              fill={false}
-            />
-
-            <Circle className="right-[12%] top-[12%]" width={20} height={20} />
-            <Circle
-              className="right-[2%] bottom-[30%]"
-              width={73}
-              height={73}
-              fill={false}
-            />
-            <Circle
-              className="right-[19%] bottom-[16%]"
-              width={37}
-              height={37}
-              fill={false}
-            />
-          </div>
-        </div>
+    <section className="section relative mb-10 overflow-hidden bg-black/95">
+      <img
+        src="./images/3d.webp"
+        alt=""
+        className="absolute right-0 top-0 rotate-180 opacity-20"
+      />
+      <img
+        src="./images/3dperson.webp"
+        alt=""
+        className="absolute right-[20%] top-10 shadow-xl"
+      />
+      <div className="container">
+        <h1 className="text-white">DTS Tech India</h1>
+        <p className="my-2 w-1/2 text-gray-200">
+          Ready to enhance your online presence? Whether it's a specific
+          project, a quote, or exploring how we can boost your digital success,
+          contact us now to begin.
+        </p>
+        <Link href="/contact">
+          <button className="btn btn-primary my-6">Contact</button>
+        </Link>
       </div>
     </section>
   );

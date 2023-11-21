@@ -26,3 +26,28 @@ body {
   @import "swiper/scss/pagination";
   @import "./swiper.scss";
 }
+
+.choose-us-card {
+  border: 1px solid rgb(255 255 255 / 10%);
+  position: relative;
+  @apply bg-[#f1f1f196] bg-opacity-30 backdrop-blur-[10px] backdrop-filter;
+}
+
+.choose-us-card::after {
+  content: "";
+  height: 70px;
+  width: 2px;
+  position: absolute;
+  left: -1px;
+  top: 65%;
+  transition: top, opacity;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  @apply bg-gradient-to-b from-transparent from-10% via-[#257CFF] via-30% to-transparent to-100%;
+  opacity: 0;
+}
+
+.choose-us-card:hover:after {
+  top: 25%;
+  opacity: 1;
+}

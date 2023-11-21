@@ -225,8 +225,104 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
         </div>
       </section>
 
-      {/* Short Into */}
-      <section className="section pt-0" id="services">
+      {/* Why choose us */}
+      <section className="">
+        <div className="container">
+          <div className="animate text-center">
+            <p>{testimonial.subtitle}</p>
+            <h2 className="section-title mt-4">Why Choose Us</h2>
+          </div>
+          <div className="grid grid-cols-2 gap-8 p-12 text-center">
+            <div className="animate rounded-md bg-[#f1f1f1aa] p-4 choose-us-card">
+              <h1 className="mb-2 text-2xl">Expertise</h1>
+              <p className="mx-auto w-3/4 leading-7">
+                Our team of professionals brings years of industry experience
+                and a deep understanding of the latest technology trends to
+                every project.
+              </p>
+            </div>
+            <div className="animate rounded-md bg-[#f1f1f1aa] p-4 choose-us-card">
+              <h1 className="mb-2 text-2xl">Innovation</h1>
+              <p className="mx-auto w-3/4 leading-7">
+                We thrive on creativity and forward-thinking, ensuring that our
+                solutions are at the cutting edge of technology.
+              </p>
+            </div>
+            <div className="animate rounded-md bg-[#f1f1f1aa] p-4 choose-us-card">
+              <h1 className="mb-2 text-2xl">Customization</h1>
+              <p className="mx-auto w-3/4 leading-7">
+                Every project is tailored to meet your unique needs, ensuring
+                that the solutions we provide are a perfect fit for your goals.
+              </p>
+            </div>
+            <div className="animate rounded-md bg-[#f1f1f1aa] p-4 choose-us-card">
+              <h1 className="mb-2 text-2xl">Client-Centric Focus</h1>
+              <p className="mx-auto w-3/4 leading-7">
+                Your success is our top priority. We work closely with you,
+                listening to your needs and offering solutions that exceed your
+                expectations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* our process */}
+      <section className="section">
+        <div className="container">
+          <div className="animate">
+            <div className="animate text-center">
+              <p>Crafting Success</p>
+              <h2 className="section-title mt-4">Our Process</h2>
+            </div>
+            <div className="mt-10 flex gap-6">
+              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#1</h4>
+                <h1 className="mb-4 text-xl">Discovery</h1>
+                <p className="text-gray-500">
+                  Understand client goals and project requirements through
+                  detailed consultations.
+                </p>
+              </div>
+              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#2</h4>
+                <h1 className="mb-4 text-xl">Strategic Planning</h1>
+                <p className="text-gray-500">
+                  Formulate a comprehensive plan outlining project scope,
+                  timelines, and resources.
+                </p>
+              </div>
+              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#3</h4>
+                <h1 className="mb-4 text-xl">Design and Development</h1>
+                <p className="text-gray-500">
+                  Combine creative and technical expertise to bring the client's
+                  vision to life.
+                </p>
+              </div>
+              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#4</h4>
+                <h1 className="mb-4 text-xl">Quality Assurance</h1>
+                <p className="text-gray-500">
+                  Rigorously test and review every aspect to ensure the highest
+                  standards.
+                </p>
+              </div>
+              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#5</h4>
+                <h1 className="mb-4 text-xl">Delivery and Support</h1>
+                <p className="text-gray-500">
+                  Deliver the finalized product, providing support for a
+                  seamless launch and ongoing maintenance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* services */}
+      {/* <section className="section pt-0" id="services">
         <div className="container-xl">
           <div className="relative px-4 py-[70px]">
             <div className="text-center">
@@ -330,10 +426,103 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
         </div>
+      </section> */}
+
+      <section className="section bg-[#9690A20F]">
+        <div className="container">
+          <div className="animate text-center">
+            <p>What We Do</p>
+            <h2 className="section-title mt-4">Services</h2>
+            <p className="mx-auto mt-10 w-1/2">
+              At DTS Tech India, we are your trusted digital partner, blending
+              creativity and technology to deliver tailored solutions that
+              enhance online presence and elevate brand appeal for success in
+              the digital age.
+            </p>
+          </div>
+          <div className="mt-10 grid grid-cols-3 gap-6">
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+              <img
+                src="./images/icons/graphic-design.png"
+                alt=""
+                className="mb-2 h-10 w-10"
+              />
+              <h1 className="text-2xl">Graphic Design</h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#E36644] underline"></span>
+              <p className="leading-7">
+                Elevate your brand with DTS Tech India's expert graphic design
+                services, ensuring a standout visual identity in the digital
+                landscape
+              </p>
+            </div>
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+              <img
+                src="./images/icons/audio-visual.png"
+                alt=""
+                className="mb-2 h-10 w-10"
+              />
+              <h1 className="mb-4 text-2xl">Audio-Visual Services</h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#DA0568] underline"></span>
+              <p className="leading-7">
+                Captivate your audience with DTS Tech India's audio-visual
+                services, offering dynamic video production, interactive
+                presentations, and engaging animations that blend creativity
+                with technology.
+              </p>
+            </div>
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+              <img
+                src="./images/icons/development.png"
+                alt=""
+                className="mb-2 h-10 w-10"
+              />
+              <h1 className="mb-4 text-2xl">Development Services</h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#003366] underline"></span>
+              <p className="leading-7">
+                Empower your digital presence with DTS Tech India's development
+                services, delivering custom web solutions, including design, web
+                application development, and e-commerce solutions.
+              </p>
+            </div>
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+              <img src="./images/icons/seo.png" alt="" className="h-10 w-10" />
+              <h1 className="mb-4 text-2xl">Search Engine Optimization</h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#EAA92B] underline"></span>
+              <p className="leading-7">
+                Enhance online visibility and rankings with DTS Tech India's SEO
+                services, strategically optimizing content for increased organic
+                traffic and search prominence.
+              </p>
+            </div>
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+              <img
+                src="./images/icons/digital-marketing.png"
+                alt=""
+                className="mb-2 h-10 w-10"
+              />
+              <h1 className="mb-4 text-2xl">Digital Marketing</h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#059B2F] underline"></span>
+              <p className="leading-7">
+                Amplify your brand with DTS Tech India's digital marketing
+                services, strategically spanning social media, email campaigns,
+                and online advertising.
+              </p>
+            </div>
+            <div className="rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+              <img src="./images/icons/ppc.png" alt="" className="h-10 w-10" />
+              <h1 className="mb-4 text-2xl">Pay-per-click advertising</h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#7400A3] underline"></span>
+              <p className="leading-7">
+                Boost your online presence through DTS Tech India's
+                Pay-per-Click (PPC) advertising, strategically maximizing your
+                reach and engagement with targeted ad campaigns
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
-      {/* Special Features */}
-      <section className="section">
+      {/* <section className="section">
         <div className="container">
           <div className="row items-center justify-center">
             <div className="animate lg:col-6 lg:order-2">
@@ -403,10 +592,10 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonial */}
-      <section className="section pt-0">
+      <section className="section">
         <div className="container">
           <div className="animate text-center">
             <p>{testimonial.subtitle}</p>

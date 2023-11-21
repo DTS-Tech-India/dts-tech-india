@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="container">
         <div className="row border-y border-border py-12">
           <div className="animate md:col-6 lg:col-3">
-            <img src="./images/logo.png" alt="" className="w-1/2" />
+            <img src="./images/Logo Light.svg" alt="" className="w-1/2" />
             {markdownify(footer_content, "p", "mt-3")}
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">

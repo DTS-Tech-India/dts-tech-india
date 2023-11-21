@@ -267,167 +267,8 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
         </div>
       </section>
 
-      {/* our process */}
-      <section className="section">
-        <div className="container">
-          <div className="animate">
-            <div className="animate text-center">
-              <p>Crafting Success</p>
-              <h2 className="section-title mt-4">Our Process</h2>
-            </div>
-            <div className="mt-10 flex flex-wrap justify-center gap-6 xl:flex-nowrap">
-              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
-                <h4 className="text-base font-light text-primary">#1</h4>
-                <h1 className="mb-4 text-xl">Discovery</h1>
-                <p className="text-gray-500">
-                  Understand client goals and project requirements through
-                  detailed consultations.
-                </p>
-              </div>
-              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
-                <h4 className="text-base font-light text-primary">#2</h4>
-                <h1 className="mb-4 text-xl">Strategic Planning</h1>
-                <p className="text-gray-500">
-                  Formulate a comprehensive plan outlining project scope,
-                  timelines, and resources.
-                </p>
-              </div>
-              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
-                <h4 className="text-base font-light text-primary">#3</h4>
-                <h1 className="mb-4 text-xl">Design and Development</h1>
-                <p className="text-gray-500">
-                  Combine creative and technical expertise to bring the
-                  client&apos;s vision to life.
-                </p>
-              </div>
-              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
-                <h4 className="text-base font-light text-primary">#4</h4>
-                <h1 className="mb-4 text-xl">Quality Assurance</h1>
-                <p className="text-gray-500">
-                  Rigorously test and review every aspect to ensure the highest
-                  standards.
-                </p>
-              </div>
-              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
-                <h4 className="text-base font-light text-primary">#5</h4>
-                <h1 className="mb-4 text-xl">Delivery and Support</h1>
-                <p className="text-gray-500">
-                  Deliver the finalized product, providing support for a
-                  seamless launch and ongoing maintenance.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+ 
       {/* services */}
-      {/* <section className="section pt-0" id="services">
-        <div className="container-xl">
-          <div className="relative px-4 py-[70px]">
-            <div className="text-center">
-              <div className="animate">
-                <p className="uppercase">{features.sub_title}</p>
-                {markdownify(features.title, "h2", "mt-4 section-title")}
-                {markdownify(features.description, "p", "mt-10")}
-              </div>
-              <div className="animate from-right relative mt-10">
-                <Swiper
-                  slidesPerView={1}
-                  pagination={{
-                    type: "bullets",
-                    el: paginationRef.current,
-                    clickable: true,
-                    dynamicBullets: true,
-                  }}
-                  // autoplay={{ delay: 3000 }}
-                  onBeforeInit={(swiper) => {
-                    swiper.params.pagination.el = paginationRef.current;
-                  }}
-                  modules={[Pagination]}
-                  breakpoints={{
-                    768: {
-                      slidesPerView: 2,
-                    },
-                    1200: {
-                      slidesPerView: 3,
-                    },
-                  }}
-                >
-                  {features.list.map((item, index) => (
-                    <SwiperSlide key={"feature-" + index}>
-                      <div className="feature-card z-[100] m-4 rounded-md border border-transparent bg-white px-7 py-16 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
-                        <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
-                          <FeatherIcon icon={item.icon} color={item.color} />
-                        </div>
-                        <h3 className="h4 mb-5 mt-6">{item.title}</h3>
-                        <p>{item.content}</p>
-                      </div>
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-                <div className="relative mt-9 flex justify-center">
-                  <div className="pagination " ref={paginationRef}></div>
-                </div>
-              </div>
-            </div>
-            <div className="bg-theme absolute left-0 top-0 w-full">
-              <Circle
-                className="left-[10%] top-12"
-                width={32}
-                height={32}
-                fill={false}
-              />
-              <Circle className="left-[3%] top-[30%]" width={85} height={85} />
-              <Circle
-                className="bottom-[52%] left-[22%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="bottom-[35%] left-[15%]"
-                width={47}
-                height={47}
-                fill={false}
-              />
-              <Circle
-                className="bottom-[6%] left-[6%]"
-                width={62}
-                height={62}
-                fill={false}
-              />
-              <Circle
-                className="right-[12%] top-[12%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="right-[2%] top-[30%]"
-                width={73}
-                height={73}
-                fill={false}
-              />
-              <Circle
-                className="right-[19%] top-[50%]"
-                width={37}
-                height={37}
-                fill={false}
-              />
-              <Circle
-                className="right-[33%] top-[52%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="bottom-[18%] right-[5%]"
-                width={65}
-                height={65}
-              />
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className="section bg-[#9690A20F]">
         <div className="container">
           <div className="animate text-center">
@@ -517,6 +358,60 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 Pay-per-Click (PPC) advertising, strategically maximizing your
                 reach and engagement with targeted ad campaigns
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     {/* our process */}
+     <section className="section">
+        <div className="container">
+          <div className="animate">
+            <div className="animate text-center">
+              <p>Crafting Success</p>
+              <h2 className="section-title mt-4">Our Process</h2>
+            </div>
+            <div className="mt-10 flex flex-wrap justify-center gap-6 xl:flex-nowrap">
+              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#1</h4>
+                <h1 className="mb-4 text-xl">Discovery</h1>
+                <p className="text-gray-500">
+                  Understand client goals and project requirements through
+                  detailed consultations.
+                </p>
+              </div>
+              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#2</h4>
+                <h1 className="mb-4 text-xl">Strategic Planning</h1>
+                <p className="text-gray-500">
+                  Formulate a comprehensive plan outlining project scope,
+                  timelines, and resources.
+                </p>
+              </div>
+              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#3</h4>
+                <h1 className="mb-4 text-xl">Design and Development</h1>
+                <p className="text-gray-500">
+                  Combine creative and technical expertise to bring the
+                  client&apos;s vision to life.
+                </p>
+              </div>
+              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#4</h4>
+                <h1 className="mb-4 text-xl">Quality Assurance</h1>
+                <p className="text-gray-500">
+                  Rigorously test and review every aspect to ensure the highest
+                  standards.
+                </p>
+              </div>
+              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#5</h4>
+                <h1 className="mb-4 text-xl">Delivery and Support</h1>
+                <p className="text-gray-500">
+                  Deliver the finalized product, providing support for a
+                  seamless launch and ongoing maintenance.
+                </p>
+              </div>
             </div>
           </div>
         </div>

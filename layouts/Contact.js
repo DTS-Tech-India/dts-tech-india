@@ -1,6 +1,6 @@
 import config from "@config/config.json";
 import Banner from "./components/Banner";
-import ImageFallback from "./components/ImageFallback";
+import FeatherIcon from "feather-icons-react";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
@@ -12,47 +12,25 @@ const Contact = ({ data }) => {
       <div className="container">
         <div className="section row items-center justify-center">
           <div className="animate lg:col-5">
-            <ImageFallback
-              className="mx-auto lg:pr-10"
-              src="/images/vectors/contact.png"
-              width={497}
-              height={397}
-              alt=""
-            />
-            <p className="my-8">
-              Your journey with DTS Tech India begins here. We're here to
-              listen, collaborate, and make your digital aspirations a reality.
-              Whether you have questions, need a quote, or want to discuss a
-              project, we're just a message away. Reach out to us through any of
-              the following means:
-            </p>
-            <ul className="list-disc">
-              <li className="mb-4">
-                <strong>Phone:</strong> Connect with our experts directly by
-                calling [Phone Number].
-              </li>
-              <li className="mb-4">
-                <strong>Email:</strong> Drop us an email at [Email Address], and
-                our team will respond promptly.
-              </li>
-              <li className="mb-4">
-                <strong>Visit Us:</strong> If you prefer face-to-face meetings,
-                we welcome you to our office at [Office Address]. Our doors are
-                open for discussions, consultations, and to better understand
-                your needs.
-              </li>
-              <li className="mb-4">
-                <strong>Social Media:</strong> Stay updated and engaged with us
-                on our social media platforms. Follow us on [Social Media Links]
-                for the latest news, insights, and updates.
-              </li>
-            </ul>
-            <p className="my-8">
-              Your success is our priority, and we are committed to providing
-              exceptional service and support at every step. We look forward to
-              connecting with you and embarking on a journey of innovation,
-              imagination, and integration together.
-            </p>
+            <div className="">
+              <h2>DTS Tech India</h2>
+              <p className="my-4 text-xl">
+                23, Joshi Road, Karol Bagh, Delhi - 110005
+              </p>
+              <p className="mt-6 flex items-center">
+                <FeatherIcon icon="phone" />
+                &nbsp; +91 9711361809
+              </p>
+              <p className="mt-4 flex items-center">
+                <FeatherIcon icon="mail" />
+                &nbsp; info@dtstechindia.com
+              </p>
+            </div>
+            <div className="mt-8">
+              <h4>Opening Hours: </h4>
+              <p className="text-gray-400 mt-4">Monday - Sunday</p>
+              <p className="text-primary font-bold text-lg mt-2">9:00 AM - 5:00 PM</p>
+            </div>
           </div>
           <div className="animate lg:col-5">
             <form

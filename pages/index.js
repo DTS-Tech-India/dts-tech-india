@@ -226,7 +226,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       </section>
 
       {/* Why choose us */}
-      <section className="">
+      {/* <section className="">
         <div className="container">
           <div className="animate text-center">
             <p>{testimonial.subtitle}</p>
@@ -265,6 +265,57 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
         </div>
+      </section> */}
+
+      <section className="section">
+        <div className="container">
+          <div className="animate text-center">
+            <p>Unparalleled Excellence and Innovation</p>
+            <h2 className="section-title mt-4">Why Choose Us</h2>
+          </div>
+          <div className="mt-16">
+            <div className="flex flex-wrap justify-center gap-12">
+              <div className="animate flex w-[300px] items-center justify-center rounded-md p-8 shadow-md">
+                <div>
+                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-2">
+                    <img src="./images/why-choose-us/check.png" alt="" />
+                  </span>
+                  <h3 className="my-4 text-center">27+</h3>
+                  <h5 className="font-light text-gray-500">
+                    Projects Completed
+                  </h5>
+                </div>
+              </div>
+              <div className="animate flex w-[300px] items-center justify-center rounded-md p-8 shadow-md">
+                <div>
+                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-2">
+                    <img src="./images/why-choose-us/calendar.png" alt="" />
+                  </span>
+                  <h3 className="my-4 text-center">1+</h3>
+                  <h5 className="font-light text-gray-500">No of Years</h5>
+                </div>
+              </div>
+              <div className="animate flex w-[300px] items-center justify-center rounded-md p-8 shadow-md">
+                <div>
+                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-2">
+                    <img src="./images/why-choose-us/like.png" alt="" />
+                  </span>
+                  <h3 className="my-4 text-center">10+</h3>
+                  <h5 className="font-light text-gray-500">Happy clients</h5>
+                </div>
+              </div>
+              <div className="animate flex w-[300px] items-center justify-center rounded-md p-8 shadow-md">
+                <div>
+                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-2">
+                    <img src="./images/why-choose-us/leads.png" alt="" />
+                  </span>
+                  <h3 className="my-4 text-center">12k+</h3>
+                  <h5 className="font-light text-gray-500">Verified leads</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* services */}
@@ -273,12 +324,6 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
           <div className="animate text-center">
             <p>What We Do</p>
             <h2 className="section-title mt-4">Services</h2>
-            <p className="mx-auto mt-10 w-1/2">
-              At DTS Tech India, we are your trusted digital partner, blending
-              creativity and technology to deliver tailored solutions that
-              enhance online presence and elevate brand appeal for success in
-              the digital age.
-            </p>
           </div>
           <div className="mt-10 flex flex-wrap justify-center gap-6">
             <div className="w-[400px] rounded-md p-6 transition-colors hover:bg-[#e3eeff]">

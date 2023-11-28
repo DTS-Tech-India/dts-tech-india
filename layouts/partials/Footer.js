@@ -5,6 +5,7 @@ import social from "@config/social.json";
 import Logo from "@layouts/components/Logo";
 import { markdownify } from "@lib/utils/textConverter";
 import Link from "next/link";
+import { MapPin, Phone } from "feather-icons-react";
 
 const Footer = () => {
   const { copyright, footer_content } = config.params;
@@ -12,10 +13,10 @@ const Footer = () => {
   return (
     <footer className="">
       <div className="container">
-        <div className="row border-y border-border py-12">
+        <div className="row border-border py-12">
           <div className="animate md:col-6 lg:col-3">
             <img src="./images/Logo Light.svg" alt="" className="w-1/2" />
-            {markdownify(footer_content, "p", "mt-3")}
+            <Social source={social} className="social-icons mt-5 flex" />
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Explore</h3>
@@ -52,21 +53,19 @@ const Footer = () => {
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Location & Contact</h3>
             <ul className="mt-5 leading-10">
-              <li>{markdownify(location)}</li>
+              <li className="flex items-center whitespace-nowrap">
+                <MapPin />
+                &nbsp;
+                {markdownify(location)}
+              </li>
               {phone && (
-                <li>
+                <li className="flex items-center whitespace-nowrap hover:text-primary">
+                  <Phone size={14} />
+                  &nbsp;
                   <Link href={`tel:${phone}`}>{phone}</Link>
                 </li>
               )}
             </ul>
-            <div className="animate mt-10 md:col-6 lg:col-3 lg:mt-0">
-              <h3 className="h5 mt-8">Socials</h3>
-              <div className="mt-5">
-                {email && <Link href={`mailto:${email}`}>{email}</Link>}
-                {/* social icons */}
-                <Social source={social} className="social-icons mt-5 flex" />
-              </div>
-            </div>
           </div>
         </div>
         {/* copyright */}

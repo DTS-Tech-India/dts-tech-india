@@ -20,12 +20,6 @@ function VideoPopup({ id, thumbnail, width = 700, height = 394 }) {
             height={height}
             alt=""
           />
-          <button
-            onClick={() => setShowPopup(true)}
-            className="intro-play-btn absolute top-1/2 left-1/2 inline-flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-primary text-2xl text-body lg:h-[90px] lg:w-[90px]"
-          >
-            <FeatherIcon icon="play" size={32} />
-          </button>
         </div>
       )}
     </div>

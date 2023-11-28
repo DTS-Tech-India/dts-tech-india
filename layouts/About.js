@@ -23,11 +23,22 @@ const About = ({ data }) => {
   return (
     <>
       <section className="section pt-0">
-        <Banner title={title} />
+        <div className="relative">
+          <Circle
+            className="circle bottom-[27%] left-[39.5%]"
+            width={20}
+            height={20}
+          />
+        </div>
         {/* About */}
-        <div className="section container">
-          <div className="row items-center justify-center">
-            <div className="animate md:col-6 md:order-2 lg:col-5">
+        <div className="section container relative z-[10]">
+          <div className="flex items-center justify-center">
+            <div className="animate w-1/2">
+              <p>{about_us.subtitle}</p>
+              {markdownify(about_us.title, "h2", "section-title bar-left mt-4")}
+              {markdownify(about_us.content, "p", "mt-10")}
+            </div>
+            <div className="animate w-1/2">
               <div className="about-image relative p-[60px]">
                 <ImageFallback
                   className="animate relative w-full rounded-2xl"
@@ -70,108 +81,72 @@ const About = ({ data }) => {
                 />
               </div>
             </div>
-            <div className="animate md:col-6 md:order-1 lg:col-4">
-              <p>{about_us.subtitle}</p>
-              {markdownify(about_us.title, "h2", "section-title bar-left mt-4")}
-              {markdownify(about_us.content, "p", "mt-10")}
-            </div>
-          </div>
-        </div>
-
-        {/* Works */}
-        <div className="section container">
-          <div className="animate text-center">
-            <p>{works.subtitle}</p>
-            {markdownify(works.title, "h2", "section-title mt-4")}
-            {markdownify(works.content, "p", "mt-10")}
-          </div>
-          <div className="row mt-10 justify-center">
-            {works.list.map((work, index) => (
-              <div key={"work-" + index} className="mt-10 md:col-6 lg:col-5">
-                <div className="animate text-center md:px-6 xl:px-12">
-                  {markdownify(work.title, "h3", "h4")}
-                  {markdownify(work.content, "p", "mt-2")}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
 
         {/* Mission */}
-        <div className="section container">
-          <div className="row items-center justify-center">
-            <div className="animate md:col-6 lg:col-5">
-              <div className="about-image relative p-[60px]">
-                <ImageFallback
-                  className="animate relative w-full rounded-2xl"
-                  src={mission.image}
-                  width={425}
-                  height={487}
-                  alt=""
-                />
-                <Circle
-                  className="left-4 top-4 z-[-1]"
-                  width={85}
-                  height={85}
-                />
-                <Circle
-                  width={37}
-                  height={37}
-                  fill={false}
-                  className="right-10 top-20 z-[-1]"
-                />
-                <Circle
-                  className="right-12 top-1/2 -z-[1]"
-                  width={24}
-                  height={24}
-                />
-                <Circle
-                  className="bottom-6 right-6 z-[-1]"
-                  width={85}
-                  height={85}
-                />
-                <Circle
-                  className="left-12 top-1/2 z-[-1]"
-                  width={20}
-                  height={20}
-                />
-                <Circle
-                  className="bottom-12 left-8 z-[1]"
-                  width={47}
-                  height={47}
-                  fill={false}
-                />
+        <div className="section bg-theme-light">
+          <div className="container">
+            <div className="flex items-center justify-center">
+              <div className="animate w-1/2">
+                <div className="about-image relative p-[60px]">
+                  <ImageFallback
+                    className="animate relative w-full rounded-2xl"
+                    src={mission.image}
+                    width={425}
+                    height={487}
+                    alt=""
+                  />
+                  <Circle
+                    className="left-4 top-4 z-[-1]"
+                    width={85}
+                    height={85}
+                  />
+                  <Circle
+                    width={37}
+                    height={37}
+                    fill={false}
+                    className="right-10 top-20 z-[-1]"
+                  />
+                  <Circle
+                    className="right-12 top-1/2 -z-[1]"
+                    width={24}
+                    height={24}
+                  />
+                  <Circle
+                    className="bottom-6 right-6 z-[-1]"
+                    width={85}
+                    height={85}
+                  />
+                  <Circle
+                    className="left-12 top-1/2 z-[-1]"
+                    width={20}
+                    height={20}
+                  />
+                  <Circle
+                    className="bottom-12 left-8 z-[1]"
+                    width={47}
+                    height={47}
+                    fill={false}
+                  />
+                </div>
               </div>
-            </div>
-            <div className="animate md:col-6 lg:col-4">
-              <p>{mission.subtitle}</p>
-              {markdownify(mission.title, "h2", "section-title bar-left mt-4")}
-              {markdownify(mission.content, "p", "mt-10")}
+              <div className="animate w-1/2">
+                <p>{mission.subtitle}</p>
+                {markdownify(
+                  mission.title,
+                  "h2",
+                  "section-title bar-left mt-4"
+                )}
+                {markdownify(mission.content, "p", "mt-10")}
+              </div>
             </div>
           </div>
         </div>
 
         {/* Video */}
         <div className="container-xl relative">
-          <div className="bg-theme absolute left-0 top-0 w-full">
-            <Circle
-              className="left-[7%] top-[21%]"
-              width={32}
-              height={32}
-              fill={false}
-            />
-            <Circle
-              className="left-[30%] top-[10%]"
-              width={20}
-              height={20}
-              fill={false}
-            />
-            <Circle
-              className="bottom-[35%] left-[4%]"
-              width={20}
-              height={20}
-              fill={false}
-            />
+          <div className="absolute left-0 top-0 w-full">
             <Circle
               className="bottom-[11%] left-[10%]"
               width={37}
@@ -184,28 +159,25 @@ const About = ({ data }) => {
               height={37}
               fill={false}
             />
-            <Circle
-              className="bottom-[22%] left-[35%]"
-              width={20}
-              height={20}
-              fill={false}
-            />
-            <Circle
-              className="right-[32%] top-[2%]"
-              width={47}
-              height={47}
-              fill={false}
-            />
           </div>
-          <div className="row items-center justify-center py-[90px]">
-            <div className="md:col-6 xl:col-4">
+          <div className="flex items-center justify-center py-[90px]">
+            <div className="w-1/2">
               <div className="animate p-5">
                 <p>{video.subtitle}</p>
-                {markdownify(video.title, "h2", "mt-4 section-title bar-left")}
-                {markdownify(video.description, "p", "mt-10")}
+                <h2 className="section-title bar-left mt-4">Our Vision</h2>
+                <p className="mt-10">
+                  At DTS Tech India, we envision a digital landscape where every
+                  business thrives through seamless integration of cutting-edge
+                  technology and imaginative innovation. Our vision is to be the
+                  forefront provider of transformative digital solutions,
+                  pioneering industry standards and setting benchmarks for
+                  creativity and excellence. By consistently pushing boundaries,
+                  we aim to be the trusted partner that empowers businesses to
+                  not only adapt but lead in the ever-evolving digital era.
+                </p>
               </div>
             </div>
-            <div className="md:col-6 xl:col-5">
+            <div className="w-1/2">
               <div className="px-4 ">
                 <VideoPopup
                   id={video.video_id}
@@ -258,7 +230,6 @@ const About = ({ data }) => {
           </div>
         </div> */}
 
-        {/* Members
         <div className="section container">
           <div className="animate text-center">
             <p>{our_member.subtitle}</p>
@@ -287,7 +258,7 @@ const About = ({ data }) => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* Office
         <div className="section container">

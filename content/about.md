@@ -33,8 +33,8 @@ works:
 
 ## our mission
 mission:
-  subtitle: Mission and Vision
-  title: Main Mission and Vision Of Our Company
+  subtitle: Mission 
+  title: Main Mission Of Our Company
   content: >
     At DTS Tech India, our mission is clear - we lead in innovation, imagination, and integration. Our commitment is to empower with cutting-edge solutions, bridging ideas to reality, and driving positive change through technology.<br />
     Our vision is a future where technology enriches every facet of life and business. We pioneer solutions that transcend boundaries, fuel progress through innovation, and make technology accessible and intuitive.

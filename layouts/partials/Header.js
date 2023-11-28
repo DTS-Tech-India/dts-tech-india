@@ -98,6 +98,11 @@ const Header = () => {
                 )}
               </React.Fragment>
             ))}
+            <Link href="/contact">
+              <li className="btn btn-primary">
+                Contact
+              </li>
+            </Link>
           </ul>
           <div className="order-1 ml-auto flex items-center md:ml-0">
             {/* navbar toggler */}

@@ -1,6 +1,7 @@
 import config from "@config/config.json";
 import Banner from "./components/Banner";
 import FeatherIcon from "feather-icons-react";
+import Map from "./components/Map";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
@@ -8,7 +9,15 @@ const Contact = ({ data }) => {
 
   return (
     <section className="section">
-      <Banner title={title} />
+      <div className="banner-section">
+        <div className="container relative z-[10] pb-8 pt-60">
+          <h1 className="text-white">Contact us</h1>
+          <p className="text-white">
+            Leave us a little info, and we&apos;ll be in touch.
+          </p>
+        </div>
+      </div>
+
       <div className="container">
         <div className="section row items-center justify-center">
           <div className="animate lg:col-5">
@@ -28,9 +37,12 @@ const Contact = ({ data }) => {
             </div>
             <div className="mt-8">
               <h4>Opening Hours: </h4>
-              <p className="text-gray-400 mt-4">Monday - Sunday</p>
-              <p className="text-primary font-bold text-lg mt-2">9:00 AM - 5:00 PM</p>
+              <p className="mt-4 text-gray-400">Monday - Sunday</p>
+              <p className="mt-2 text-lg font-bold text-primary">
+                9:00 AM - 5:00 PM
+              </p>
             </div>
+            <Map />
           </div>
           <div className="animate lg:col-5">
             <form

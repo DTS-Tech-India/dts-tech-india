@@ -277,8 +277,12 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             <div className="flex flex-wrap justify-center gap-12">
               <div className="animate flex w-[300px] items-center justify-center rounded-md p-8 shadow-md">
                 <div>
-                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-2">
-                    <img src="./images/why-choose-us/check.png" alt="" />
+                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-6">
+                    <img
+                      src="./images/why-choose-us/check.png"
+                      alt=""
+                      className="h-7 w-7"
+                    />
                   </span>
                   <h3 className="my-4 text-center">27+</h3>
                   <h5 className="font-light text-gray-500">
@@ -288,8 +292,12 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               </div>
               <div className="animate flex w-[300px] items-center justify-center rounded-md p-8 shadow-md">
                 <div>
-                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-2">
-                    <img src="./images/why-choose-us/calendar.png" alt="" />
+                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-6">
+                    <img
+                      src="./images/why-choose-us/calendar.png"
+                      alt=""
+                      className="h-7 w-7"
+                    />
                   </span>
                   <h3 className="my-4 text-center">1+</h3>
                   <h5 className="font-light text-gray-500">No of Years</h5>
@@ -297,8 +305,12 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               </div>
               <div className="animate flex w-[300px] items-center justify-center rounded-md p-8 shadow-md">
                 <div>
-                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-2">
-                    <img src="./images/why-choose-us/like.png" alt="" />
+                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-6">
+                    <img
+                      src="./images/why-choose-us/like.png"
+                      alt=""
+                      className="h-7 w-7"
+                    />
                   </span>
                   <h3 className="my-4 text-center">10+</h3>
                   <h5 className="font-light text-gray-500">Happy clients</h5>
@@ -306,8 +318,12 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               </div>
               <div className="animate flex w-[300px] items-center justify-center rounded-md p-8 shadow-md">
                 <div>
-                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-2">
-                    <img src="./images/why-choose-us/leads.png" alt="" />
+                  <span className="icon mx-auto flex w-fit items-center justify-center rounded-full bg-primary p-6">
+                    <img
+                      src="./images/why-choose-us/leads.png"
+                      alt=""
+                      className="h-7 w-7"
+                    />
                   </span>
                   <h3 className="my-4 text-center">12k+</h3>
                   <h5 className="font-light text-gray-500">Verified leads</h5>
@@ -410,128 +426,67 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       {/* our process */}
       <section className="section">
         <div className="container">
-          <div className="animate">
+          <div className="animate  px-12">
             <div className="animate text-center">
               <p>Crafting Success</p>
               <h2 className="section-title mt-4">Our Process</h2>
             </div>
-            <div className="mt-10 flex flex-wrap justify-center gap-6 xl:flex-nowrap">
-              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
-                <h4 className="text-base font-light text-primary">#1</h4>
-                <h1 className="mb-4 text-xl">Discovery</h1>
-                <p className="text-gray-500">
-                  Understand client goals and project requirements through
-                  detailed consultations.
-                </p>
-              </div>
-              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
-                <h4 className="text-base font-light text-primary">#2</h4>
-                <h1 className="mb-4 text-xl">Strategic Planning</h1>
-                <p className="text-gray-500">
-                  Formulate a comprehensive plan outlining project scope,
-                  timelines, and resources.
-                </p>
-              </div>
-              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
-                <h4 className="text-base font-light text-primary">#3</h4>
-                <h1 className="mb-4 text-xl">Design and Development</h1>
-                <p className="text-gray-500">
-                  Combine creative and technical expertise to bring the
-                  client&apos;s vision to life.
-                </p>
-              </div>
-              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
-                <h4 className="text-base font-light text-primary">#4</h4>
-                <h1 className="mb-4 text-xl">Quality Assurance</h1>
-                <p className="text-gray-500">
-                  Rigorously test and review every aspect to ensure the highest
-                  standards.
-                </p>
-              </div>
-              <div className="w-[350px] rounded-md border bg-white p-8 shadow-lg transition-all">
-                <h4 className="text-base font-light text-primary">#5</h4>
-                <h1 className="mb-4 text-xl">Delivery and Support</h1>
-                <p className="text-gray-500">
-                  Deliver the finalized product, providing support for a
-                  seamless launch and ongoing maintenance.
-                </p>
-              </div>
-            </div>
+            <Swiper className="mx-auto cursor-pointer">
+              <SwiperSlide>
+                <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
+                  <h4 className="text-base font-light text-primary">#1</h4>
+                  <h1 className="mb-4 text-xl">Discovery</h1>
+                  <p className="text-gray-500">
+                    Understand client goals and project requirements through
+                    detailed consultations.
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
+                  <h4 className="text-base font-light text-primary">#2</h4>
+                  <h1 className="mb-4 text-xl">Strategic Planning</h1>
+                  <p className="text-gray-500">
+                    Formulate a comprehensive plan outlining project scope,
+                    timelines, and resources.
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
+                  <h4 className="text-base font-light text-primary">#3</h4>
+                  <h1 className="mb-4 text-xl">Design and Development</h1>
+                  <p className="text-gray-500">
+                    Combine creative and technical expertise to bring the
+                    client&apos;s vision to life.
+                  </p>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
+                  <h4 className="text-base font-light text-primary">#4</h4>
+                  <h1 className="mb-4 text-xl">Quality Assurance</h1>
+                  <p className="text-gray-500">
+                    Rigorously test and review every aspect to ensure the
+                    highest standards.
+                  </p>
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
+                  <h4 className="text-base font-light text-primary">#5</h4>
+                  <h1 className="mb-4 text-xl">Delivery and Support</h1>
+                  <p className="text-gray-500">
+                    Deliver the finalized product, providing support for a
+                    seamless launch and ongoing maintenance.
+                  </p>
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
       </section>
-
-      {/* <section className="section">
-        <div className="container">
-          <div className="row items-center justify-center">
-            <div className="animate lg:col-6 lg:order-2">
-              <ImageFallback
-                className="mx-auto"
-                src={speciality.primary.image}
-                width={575}
-                height={511}
-                alt="primary speciality"
-              />
-            </div>
-            <div className="animate lg:col-5 lg:order-1">
-              <p>{speciality.primary.subtitle}</p>
-              {markdownify(
-                speciality.primary.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              {markdownify(
-                speciality.primary.description,
-                "p",
-                "mt-8 mb-4 bar-left"
-              )}
-
-              <ul className="list-disc">
-                <li>
-                  Expertise: Our team of professionals brings years of industry
-                  experience and a deep understanding of the latest technology
-                  trends to every project.
-                </li>
-                <li>
-                  Innovation: We thrive on creativity and forward-thinking,
-                  ensuring that our solutions are at the cutting edge of
-                  technology.
-                </li>
-                <li>
-                  Every project is tailored to meet your unique needs, ensuring
-                  that the solutions we provide are a perfect fit for your
-                  goals.
-                </li>
-                <li>
-                  Your success is our top priority. We work closely with you,
-                  listening to your needs and offering solutions that exceed
-                  your expectations.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="row items-center">
-            <div className="animate lg:col-6">
-              <ImageFallback
-                className="mx-auto"
-                src={speciality.secondary.image}
-                width={575}
-                height={511}
-                alt="secondary speciality"
-              />
-            </div>
-            <div className="animate lg:col-5">
-              <p>{speciality.secondary.subtitle}</p>
-              {markdownify(
-                speciality.secondary.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              {markdownify(speciality.secondary.description, "p", "mt-10")}
-            </div>
-          </div>
-        </div>
-      </section> */}
 
       {/* Testimonial */}
       <section className="section">

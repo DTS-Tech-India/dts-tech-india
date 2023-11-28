@@ -9,21 +9,6 @@
       "url": "/services"
     },
     {
-      "name": "About",
-      "url": "/about"
-    },
-
-    {
-      "name": "Contact",
-      "url": "/contact"
-    }
-  ],
-  "footer": [
-    {
-      "name": "Home",
-      "url": "/home"
-    },
-    {
       "name": "Blog",
       "url": "/blog"
     },
@@ -34,6 +19,20 @@
     {
       "name": "About",
       "url": "/about"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Home",
+      "url": "/home"
+    },
+    {
+      "name": "Services",
+      "url": "/services"
+    },
+    {
+      "name": "Portfolio",
+      "url": "/portfolio"
     },
     {
       "name": "About Us",
@@ -42,36 +41,20 @@
   ],
   "footer_services": [
     {
-      "name": "Graphic Design",
-      "url": "/graphic-design"
+      "name": "Blog",
+      "url": "/blog"
     },
     {
-      "name": "Logo Design",
-      "url": "/logo-design"
+      "name": "Contact Us",
+      "url": "/contact"
     },
     {
-      "name": "Video Production",
-      "url": "/video-production"
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
     },
     {
-      "name": "Web Design",
-      "url": "/web-design"
-    },
-    {
-      "name": "Keyword Optimization",
-      "url": "/keyword-optimization"
-    },
-    {
-      "name": "Social Media Marketing",
-      "url": "/social-media-marketing"
-    },
-    {
-      "name": "Pay-per-click advertising",
-      "url": "/ppc"
-    },
-    {
-      "name": "Blog Post Creation",
-      "url": "/blog-post-creation"
+      "name": "Terms and condition",
+      "url": "/terms-condition"
     }
   ]
 }

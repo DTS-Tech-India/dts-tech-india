@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container">
         <div className="row border-border py-12">
           <div className="animate md:col-6 lg:col-3">
-            <img src="./images/Logo Light.svg" alt="" className="w-1/2" />
+            <img src="./images/white-logo.png" alt="" className="w-[100px] h-[100px] object-cover rounded-full" />
             <h3 className="mt-4" style={{ fontFamily: "Montserrat" }}>
               DTS Tech India
             </h3>

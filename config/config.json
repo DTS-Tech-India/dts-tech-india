@@ -2,7 +2,7 @@
   "site": {
     "title": "DTS Tech India",
     "base_url": "/",
-    "favicon": "/images/favicon.ico",
+    "favicon": "/favicon/favicon.ico",
     "logo": "/images/Logo Light.svg",
     "logo_width": "50",
     "logo_height": "50",

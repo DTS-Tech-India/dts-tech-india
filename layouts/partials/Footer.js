@@ -16,6 +16,9 @@ const Footer = () => {
         <div className="row border-border py-12">
           <div className="animate md:col-6 lg:col-3">
             <img src="./images/Logo Light.svg" alt="" className="w-1/2" />
+            <h3 className="mt-4" style={{ fontFamily: "Montserrat" }}>
+              DTS Tech India
+            </h3>
             <Social source={social} className="social-icons mt-5 flex" />
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">

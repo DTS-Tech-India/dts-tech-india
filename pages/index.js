@@ -431,59 +431,134 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               <p>Crafting Success</p>
               <h2 className="section-title mt-4">Our Process</h2>
             </div>
-            <Swiper className="mx-auto cursor-pointer">
-              <SwiperSlide>
-                <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
-                  <h4 className="text-base font-light text-primary">#1</h4>
-                  <h1 className="mb-4 text-xl">Discovery</h1>
-                  <p className="text-gray-500">
-                    Understand client goals and project requirements through
-                    detailed consultations.
-                  </p>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
-                  <h4 className="text-base font-light text-primary">#2</h4>
-                  <h1 className="mb-4 text-xl">Strategic Planning</h1>
-                  <p className="text-gray-500">
-                    Formulate a comprehensive plan outlining project scope,
-                    timelines, and resources.
-                  </p>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
-                  <h4 className="text-base font-light text-primary">#3</h4>
-                  <h1 className="mb-4 text-xl">Design and Development</h1>
-                  <p className="text-gray-500">
-                    Combine creative and technical expertise to bring the
-                    client&apos;s vision to life.
-                  </p>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
-                  <h4 className="text-base font-light text-primary">#4</h4>
-                  <h1 className="mb-4 text-xl">Quality Assurance</h1>
-                  <p className="text-gray-500">
-                    Rigorously test and review every aspect to ensure the
-                    highest standards.
-                  </p>
-                </div>
-              </SwiperSlide>
+            {/* <div className="grid grid-cols-5 gap-[100px]">
+              <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#1</h4>
+                <h1 className="mb-4 text-xl">Discovery</h1>
+                <p className="text-gray-500">
+                  Understand client goals and project requirements through
+                  detailed consultations.
+                </p>
+              </div>
+              <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#2</h4>
+                <h1 className="mb-4 text-xl">Strategic Planning</h1>
+                <p className="text-gray-500">
+                  Formulate a comprehensive plan outlining project scope,
+                  timelines, and resources.
+                </p>
+              </div>
+              <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#3</h4>
+                <h1 className="mb-4 text-xl">Design and Development</h1>
+                <p className="text-gray-500">
+                  Combine creative and technical expertise to bring the
+                  client&apos;s vision to life.
+                </p>
+              </div>
+              <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#4</h4>
+                <h1 className="mb-4 text-xl">Quality Assurance</h1>
+                <p className="text-gray-500">
+                  Rigorously test and review every aspect to ensure the highest
+                  standards.
+                </p>
+              </div>
+              <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
+                <h4 className="text-base font-light text-primary">#5</h4>
+                <h1 className="mb-4 text-xl">Delivery and Support</h1>
+                <p className="text-gray-500">
+                  Deliver the finalized product, providing support for a
+                  seamless launch and ongoing maintenance.
+                </p>
+              </div>
+            </div> */}
 
-              <SwiperSlide>
-                <div className="our_process_card w-[300px] rounded-md bg-white p-8 shadow-lg transition-all">
-                  <h4 className="text-base font-light text-primary">#5</h4>
-                  <h1 className="mb-4 text-xl">Delivery and Support</h1>
-                  <p className="text-gray-500">
-                    Deliver the finalized product, providing support for a
-                    seamless launch and ongoing maintenance.
-                  </p>
-                </div>
-              </SwiperSlide>
-            </Swiper>
+            <div className="mt-10">
+              <h2 class="sr-only">Steps</h2>
+
+              <div>
+                <ol class="grid grid-cols-1 justify-center divide-x divide-gray-100 overflow-hidden rounded-lg border border-gray-100 text-sm text-gray-500 lg:grid-cols-3">
+                  <li class="flex items-center justify-start gap-2 p-4 hover:bg-gray-50">
+                    <span className="mr-4 flex h-6 w-6 items-center justify-center rounded-full bg-primary p-4 text-white">
+                      1
+                    </span>
+
+                    <p class="leading-none">
+                      <strong class="block font-medium text-primary">
+                        Discovery
+                      </strong>
+                      <small class="mt-2 text-base leading-6">
+                        Understand client goals and project requirements through
+                        detailed consultations.
+                      </small>
+                    </p>
+                  </li>
+
+                  <li class="relative flex items-center justify-start gap-2 p-4 hover:bg-gray-50">
+                    <span className="mr-4 flex h-6 w-6 items-center justify-center rounded-full bg-primary p-4 text-white">
+                      2
+                    </span>
+
+                    <p class="leading-none">
+                      <strong class="block font-medium text-primary">
+                        Strategic Planning
+                      </strong>
+                      <small class="mt-2 text-base leading-6">
+                        Formulate a comprehensive plan outlining project scope,
+                        timelines, and resources.
+                      </small>
+                    </p>
+                  </li>
+
+                  <li class="flex items-center justify-start gap-2 p-4 hover:bg-gray-50">
+                    <span className="mr-4 flex h-6 w-6 items-center justify-center rounded-full bg-primary p-4 text-white">
+                      3
+                    </span>
+
+                    <p class="leading-none">
+                      <strong class="block font-medium text-primary">
+                        Design and Development
+                      </strong>
+                      <small class="mt-2 text-base leading-6">
+                        Combine creative and technical expertise to bring the
+                        client&apos;s vision to life.
+                      </small>
+                    </p>
+                  </li>
+                  <li class="flex items-center justify-start gap-2 p-4 hover:bg-gray-50">
+                    <span className="mr-4 flex h-6 w-6 items-center justify-center rounded-full bg-primary p-4 text-white">
+                      4
+                    </span>
+
+                    <p class="leading-none">
+                      <strong class="block font-medium text-primary">
+                        Quality Assurance
+                      </strong>
+                      <small class="mt-2 text-base leading-6">
+                        Rigorously test and review every aspect to ensure the
+                        highest standards.
+                      </small>
+                    </p>
+                  </li>
+                  <li class="flex items-center justify-start gap-2 p-4 hover:bg-gray-50">
+                    <span className="mr-4 flex h-6 w-6 items-center justify-center rounded-full bg-primary p-4 text-white">
+                      5
+                    </span>
+
+                    <p class="leading-none">
+                      <strong class="block font-medium text-primary">
+                        Delivery and Support
+                      </strong>
+                      <small class="mt-2 text-base leading-6">
+                        Deliver the finalized product, providing support for a
+                        seamless launch and ongoing maintenance.
+                      </small>
+                    </p>
+                  </li>
+                </ol>
+              </div>
+            </div>
           </div>
         </div>
       </section>

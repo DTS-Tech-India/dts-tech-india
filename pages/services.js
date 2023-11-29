@@ -53,14 +53,14 @@ const Services = ({ features }) => {
       </section>
       <section className="" id="services">
         <div className="flex flex-col-reverse  lg:flex-row">
-          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-black/90">
+          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-theme-light">
             <div className="animate w-3/4">
-              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#E36644] pb-4 font-light text-gray-400">
+              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#E36644] pb-4 font-light text-gray-900">
                 Revitalize Your Brand Graphics
               </h6>
-              <h1 className="text-white">Graphic Design</h1>
+              <h1 className="">Graphic Design</h1>
               <p className="mt-6 w-3/4 leading-7">
-                <ul className="list-disc text-white">
+                <ul className="list-disc">
                   <li>
                     Expert designers dedicated to infusing creativity into every
                     project
@@ -89,14 +89,14 @@ const Services = ({ features }) => {
           <div className="lg:w-1/2">
             <img src="./images/services/video-editing.webp" alt="" />
           </div>
-          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-black/90">
+          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-theme-light">
             <div className="animate w-3/4">
-              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#DA0568] pb-4 font-light text-gray-400">
+              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#DA0568] pb-4 font-light text-gray-900">
                 Dazzling AV Experiences.
               </h6>
-              <h1 className="text-white">Audio-Visual Services</h1>
+              <h1 className="">Audio-Visual Services</h1>
               <p className="mt-6 w-3/4 leading-7">
-                <ul className="list-disc text-white">
+                <ul className="list-disc">
                   <li>Dynamic video production for captivating content</li>
                   <li>Interactive presentations to engage your audience</li>
                   <li>Compelling animations for enhanced storytelling</li>
@@ -110,14 +110,14 @@ const Services = ({ features }) => {
           </div>
         </div>
         <div className="flex flex-col-reverse  lg:flex-row">
-          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-black/90">
+          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-theme-light">
             <div className="animate w-3/4">
-              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#003366] pb-4 font-light text-gray-400">
+              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#003366] pb-4 font-light text-gray-900">
                 Digital Excellence Unleashed.
               </h6>
-              <h1 className="text-white">Development Services</h1>
+              <h1 className="">Development Services</h1>
               <p className="mt-6 w-3/4 leading-7">
-                <ul className="list-disc text-white">
+                <ul className="list-disc">
                   <li>
                     Expert team merging creativity and technical proficiency
                   </li>
@@ -138,14 +138,14 @@ const Services = ({ features }) => {
           <div className="lg:w-1/2">
             <img src="./images/services/seo.webp" alt="" />
           </div>
-          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-black/90">
+          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-theme-light">
             <div className="animate w-3/4">
-              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#EAA92B] pb-4 font-light text-gray-400">
+              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#EAA92B] pb-4 font-light text-gray-900">
                 SEO Mastery Unleashed.
               </h6>
-              <h1 className="text-white">Search Engine Optimization</h1>
+              <h1 className="">Search Engine Optimization</h1>
               <p className="mt-6 w-3/4 leading-7">
-                <ul className="list-disc text-white">
+                <ul className="list-disc">
                   <li>
                     Strategic SEO techniques for optimized digital content
                   </li>
@@ -160,14 +160,14 @@ const Services = ({ features }) => {
           </div>
         </div>
         <div className="flex flex-col-reverse  lg:flex-row">
-          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-black/90">
+          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-theme-light">
             <div className="animate w-3/4">
-              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#059B2F] pb-4 font-light text-gray-400">
+              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#059B2F] pb-4 font-light text-gray-900">
                 Strategic Brand Amplification.
               </h6>
-              <h1 className="text-white">Digital Marketing</h1>
+              <h1 className="">Digital Marketing</h1>
               <p className="mt-6 w-3/4 leading-7">
-                <ul className="list-disc text-white">
+                <ul className="list-disc">
                   <li>
                     Strategic social media campaigns for effective engagement
                   </li>
@@ -193,14 +193,14 @@ const Services = ({ features }) => {
           <div className="lg:w-1/2">
             <img src="./images/services/ppc.webp" alt="" />
           </div>
-          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-black/90">
+          <div className="flex flex-col items-center justify-center py-12 lg:w-1/2 bg-theme-light">
             <div className="animate w-3/4">
-              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#7400A3] pb-4 font-light text-gray-400">
+              <h6 className="mb-4 w-fit border-b-[2px] border-b-[#7400A3] pb-4 font-light text-gray-900">
                 PPC Precision Unleashed.
               </h6>
-              <h1 className="text-white">Pay-per-click advertising</h1>
+              <h1 className="">Pay-per-click advertising</h1>
               <p className="mt-6 w-3/4 leading-7">
-                <ul className="list-disc text-white">
+                <ul className="list-disc">
                   <li>Pay-Per-Click expertise for strategic ad placements</li>
                   <li>
                     Drive targeted traffic while optimizing digital marketing

@@ -3,6 +3,8 @@ import theme from "@config/theme.json";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
+import ScrollToTop from "react-scroll-to-top";
+import FeatherIcon from "feather-icons-react/build/FeatherIcon";
 import "styles/style.scss";
 
 const App = ({ Component, pageProps }) => {
@@ -52,6 +54,14 @@ const App = ({ Component, pageProps }) => {
         />
       </Head>
       <Component {...pageProps} />
+      <ScrollToTop
+        smooth
+        color="#257CFF"
+        top="300"
+        component={<FeatherIcon icon="arrow-up" />}
+        style={{ background: "#257CFF", color: "#fff" }}
+        className="flex items-center justify-center"
+      />
     </>
   );
 };

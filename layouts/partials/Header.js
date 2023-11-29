@@ -49,8 +49,9 @@ const Header = () => {
       >
         <nav className="navbar container-xl">
           {/* logo */}
-          <div className="order-0">
+          <div className="order-0 flex items-center space-x-4">
             <Logo src={logo} />
+            <h4 style={{ fontFamily: "Montserrat" }}>DTS Tech India</h4>
           </div>
 
           <ul
@@ -99,9 +100,7 @@ const Header = () => {
               </React.Fragment>
             ))}
             <Link href="/contact">
-              <li className="btn btn-primary">
-                Contact
-              </li>
+              <li className="btn btn-primary">Contact</li>
             </Link>
           </ul>
           <div className="order-1 ml-auto flex items-center md:ml-0">

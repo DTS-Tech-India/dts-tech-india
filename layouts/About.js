@@ -32,13 +32,13 @@ const About = ({ data }) => {
         </div>
         {/* About */}
         <div className="section container relative z-[10]">
-          <div className="flex items-center justify-center">
-            <div className="animate w-1/2">
+          <div className="lg:flex items-center justify-center">
+            <div className="animate lg:w-1/2">
               <p>{about_us.subtitle}</p>
               {markdownify(about_us.title, "h2", "section-title bar-left mt-4")}
               {markdownify(about_us.content, "p", "mt-10")}
             </div>
-            <div className="animate w-1/2">
+            <div className="animate lg:w-1/2">
               <div className="about-image relative p-[60px]">
                 <ImageFallback
                   className="animate relative w-full rounded-2xl"
@@ -87,8 +87,8 @@ const About = ({ data }) => {
         {/* Mission */}
         <div className="section bg-theme-light">
           <div className="container">
-            <div className="flex items-center justify-center">
-              <div className="animate w-1/2">
+            <div className="lg:flex items-center justify-center">
+              <div className="animate lg:w-1/2">
                 <div className="about-image relative p-[60px]">
                   <ImageFallback
                     className="animate relative w-full rounded-2xl"
@@ -131,7 +131,7 @@ const About = ({ data }) => {
                   />
                 </div>
               </div>
-              <div className="animate w-1/2">
+              <div className="animate lg:w-1/2">
                 <p>{mission.subtitle}</p>
                 {markdownify(
                   mission.title,
@@ -144,7 +144,7 @@ const About = ({ data }) => {
           </div>
         </div>
 
-        {/* Video */}
+        {/* Vision */}
         <div className="container-xl relative">
           <div className="absolute left-0 top-0 w-full">
             <Circle
@@ -160,8 +160,8 @@ const About = ({ data }) => {
               fill={false}
             />
           </div>
-          <div className="flex items-center justify-center py-[90px]">
-            <div className="w-1/2">
+          <div className="lg:flex items-center justify-center py-[90px]">
+            <div className="lg:w-1/2">
               <div className="animate p-5">
                 <p>{video.subtitle}</p>
                 <h2 className="section-title bar-left mt-4">Our Vision</h2>
@@ -177,7 +177,7 @@ const About = ({ data }) => {
                 </p>
               </div>
             </div>
-            <div className="w-1/2">
+            <div className="lg:w-1/2">
               <div className="px-4 ">
                 <VideoPopup
                   id={video.video_id}

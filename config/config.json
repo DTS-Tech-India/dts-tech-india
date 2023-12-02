@@ -3,9 +3,9 @@
     "title": "DTS Tech India",
     "base_url": "/",
     "favicon": "/favicon/favicon.ico",
-    "logo": "/images/Logo Light.svg",
-    "logo_width": "50",
-    "logo_height": "50",
+    "logo": "/images/dts-logo.svg",
+    "logo_width": "150",
+    "logo_height": "150",
     "logo_text": "DTS Tech India"
   },
 

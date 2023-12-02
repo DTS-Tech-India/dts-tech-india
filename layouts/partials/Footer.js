@@ -15,10 +15,7 @@ const Footer = () => {
       <div className="container">
         <div className="row border-border py-12">
           <div className="animate md:col-6 lg:col-3">
-            <img src="./images/white-logo.png" alt="" className="w-[100px] h-[100px] object-cover rounded-full" />
-            <h3 className="mt-4" style={{ fontFamily: "Montserrat" }}>
-              DTS Tech India
-            </h3>
+            <img src="./images/dts-logo.svg" alt="" className="w-1/2" />
             <Social source={social} className="social-icons mt-5 flex" />
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">

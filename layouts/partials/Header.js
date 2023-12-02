@@ -51,7 +51,7 @@ const Header = () => {
           {/* logo */}
           <div className="order-0 flex items-center space-x-4">
             <Logo src={logo} />
-            <h4 style={{ fontFamily: "Montserrat" }}>DTS Tech India</h4>
+            {/* <h4 style={{ fontFamily: "Montserrat" }}>DTS Tech India</h4> */}
           </div>
 
           <ul

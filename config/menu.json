@@ -24,7 +24,7 @@
   "footer": [
     {
       "name": "Home",
-      "url": "/home"
+      "url": "/"
     },
     {
       "name": "Services",
@@ -36,7 +36,7 @@
     },
     {
       "name": "About Us",
-      "url": "/Contact Us"
+      "url": "/about"
     }
   ],
   "footer_services": [

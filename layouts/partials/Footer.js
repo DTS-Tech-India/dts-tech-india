@@ -15,8 +15,8 @@ const Footer = () => {
       <div className="container">
         <div className="row border-border py-12">
           <div className="animate md:col-6 lg:col-3">
-            <img src="./images/dts-logo.svg" alt="" className="w-1/2" />
-            <Social source={social} className="social-icons mt-5 flex" />
+            <img src="./images/dts-logo.svg" alt="" className="w-3/4" />
+            <Social source={social} className="mt-7" />
           </div>
           <div className="animate mt-8 md:col-6 lg:col-3 lg:mt-0">
             <h3 className="h5">Explore</h3>

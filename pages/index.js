@@ -335,89 +335,114 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       </section>
 
       {/* services */}
-      <section className="section bg-[#9690A20F]">
+      <section className="section bg-[#121212]">
         <div className="container">
           <div className="animate text-center">
-            <p>What We Do</p>
-            <h2 className="section-title mt-4">Services</h2>
+            <p className="text-gray-400">What We Do</p>
+            <h2 className="section-title mt-4 text-white">Services</h2>
           </div>
           <div className="mt-10 flex flex-wrap justify-center gap-6">
-            <div className="w-[400px] rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+            <div className="relative w-[600px] rounded-lg bg-[#e36644] px-12 py-6 text-white transition-colors">
+              <h1 className="text-2xl text-white">Graphic design</h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-white underline"></span>
+              <div className="flex">
+                <p className="mt-6 leading-7">
+                  Elevate your brand with DTS Tech India&apos;s expert graphic
+                  design services, ensuring a standout visual identity in the
+                  digital landscape
+                </p>
+              </div>
               <img
-                src="./images/icons/graphic-design.png"
+                src="./images/uiux.svg"
                 alt=""
-                className="mb-2 h-10 w-10"
+                className="absolute right-0 top-0 h-full"
               />
-              <h1 className="text-2xl">Graphic design</h1>
-              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#E36644] underline"></span>
-              <p className="leading-7">
-                Elevate your brand with DTS Tech India&apos;s expert graphic
-                design services, ensuring a standout visual identity in the
-                digital landscape
-              </p>
             </div>
-            <div className="w-[400px] rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+            <div className="relative w-[600px] rounded-lg bg-[#DA0568] px-12 py-6 text-white transition-colors">
+              <h1 className="text-2xl text-white">Audio-Visual Services</h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-white underline"></span>
+              <div className="flex">
+                <p className="mt-6 leading-7">
+                  Captivate your audience with DTS Tech India&apos;s
+                  audio-visual services, offering dynamic video production,
+                  interactive presentations, and engaging animations that blend
+                  creativity with technology.
+                </p>
+              </div>
               <img
-                src="./images/icons/audio-visual.png"
+                src="./images/video.svg"
                 alt=""
-                className="mb-2 h-10 w-10"
+                className="absolute right-0 top-0 h-full"
               />
-              <h1 className="mb-4 text-2xl">Audio-Visual services</h1>
-              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#DA0568] underline"></span>
-              <p className="leading-7">
-                Captivate your audience with DTS Tech India&apos;s audio-visual
-                services, offering dynamic video production, interactive
-                presentations, and engaging animations that blend creativity
-                with technology.
-              </p>
             </div>
-            <div className="w-[400px] rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+            <div className="relative w-[600px] rounded-lg bg-[#003366] px-12 py-6 text-white transition-colors">
+              <h1 className="text-2xl text-white">Development Services</h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-white underline"></span>
+              <div className="flex">
+                <p className="mt-6 leading-7">
+                  Empower your digital presence with DTS Tech India&apos;s
+                  development services, delivering custom web solutions,
+                  including design, web application development, and e-commerce
+                  solutions.
+                </p>
+              </div>
               <img
-                src="./images/icons/development.png"
+                src="./images/web-dev.svg"
                 alt=""
-                className="mb-2 h-10 w-10"
+                className="absolute right-0 top-0 h-full"
               />
-              <h1 className="mb-4 text-2xl">Development services</h1>
-              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#003366] underline"></span>
-              <p className="leading-7">
-                Empower your digital presence with DTS Tech India&apos;s
-                development services, delivering custom web solutions, including
-                design, web application development, and e-commerce solutions.
-              </p>
             </div>
-            <div className="w-[400px] rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
-              <img src="./images/icons/seo.png" alt="" className="h-10 w-10" />
-              <h1 className="mb-4 text-2xl">Search engine optimization</h1>
-              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#EAA92B] underline"></span>
-              <p className="leading-7">
-                Enhance online visibility and rankings with DTS Tech
-                India&apos;s SEO services, strategically optimizing content for
-                increased organic traffic and search prominence.
-              </p>
-            </div>
-            <div className="w-[400px] rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
+            <div className="relative w-[600px] rounded-lg bg-[#EAA92B] px-12 py-6 text-white transition-colors">
+              <h1 className="text-2xl text-white">
+                Search Engine Optimization
+              </h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-white underline"></span>
+              <div className="flex">
+                <p className="mt-6 leading-7">
+                  Enhance online visibility and rankings with DTS Tech
+                  India&apos;s SEO services, strategically optimizing content
+                  for increased organic traffic and search prominence.
+                </p>
+              </div>
               <img
-                src="./images/icons/digital-marketing.png"
+                src="./images/seo.svg"
                 alt=""
-                className="mb-2 h-10 w-10"
+                className="absolute right-0 top-0 h-full"
               />
-              <h1 className="mb-4 text-2xl">Digital marketing</h1>
-              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#059B2F] underline"></span>
-              <p className="leading-7">
-                Amplify your brand with DTS Tech India&apos;s digital marketing
-                services, strategically spanning social media, email campaigns,
-                and online advertising.
-              </p>
             </div>
-            <div className="w-[400px] rounded-md p-6 transition-colors hover:bg-[#e3eeff]">
-              <img src="./images/icons/ppc.png" alt="" className="h-10 w-10" />
-              <h1 className="mb-4 text-2xl">Pay-per-click advertising</h1>
-              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-[#7400A3] underline"></span>
-              <p className="leading-7">
-                Boost your online presence through DTS Tech India&apos;s
-                Pay-per-Click (PPC) advertising, strategically maximizing your
-                reach and engagement with targeted ad campaigns
-              </p>
+            <div className="relative w-[600px] rounded-lg bg-[#059B2F] px-12 py-6 text-white transition-colors">
+              <h1 className="text-2xl text-white">Digital Markteting</h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-white underline"></span>
+              <div className="flex">
+                <p className="mt-6 leading-7">
+                  Amplify your brand with DTS Tech India&aspo;s digital
+                  marketing services, strategically spanning social media, email
+                  campaigns, and online advertising.
+                </p>
+              </div>
+              <img
+                src="./images/marketing.svg"
+                alt=""
+                className="absolute right-0 top-0 h-full"
+              />
+            </div>
+            <div className="relative w-[600px] rounded-lg bg-[#7400A3] px-12 py-6 text-white transition-colors">
+              <h1 className="text-2xl text-white">
+                Pay-per-click Advertising
+              </h1>
+              <span className="my-4 block h-[2px] w-[100px] rounded-sm bg-white underline"></span>
+              <div className="flex">
+                <p className="mt-6 leading-7">
+                  Boost your online presence through DTS Tech India&apos;s
+                  Pay-per-Click (PPC) advertising, strategically maximizing your
+                  reach and engagement with targeted ad campaigns
+                </p>
+              </div>
+              <img
+                src="./images/advertising.svg"
+                alt=""
+                className="absolute right-0 top-0 h-full"
+              />
             </div>
           </div>
         </div>

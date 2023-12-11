@@ -40,7 +40,13 @@ const Header = () => {
 
   return (
     <>
-      <header ref={headerRef}>
+      <div className="header-height-fix"></div>
+      <header
+        className={`header ${sticky && "header-sticky"} ${
+          direction === 1 && "unpinned"
+        }`}
+        ref={headerRef}
+      >
         <nav className="navbar container-xl">
           {/* logo */}
           <div className="order-0 flex items-center space-x-4">
